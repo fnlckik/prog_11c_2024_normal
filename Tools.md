@@ -15,6 +15,7 @@
     - Sor másolás: `alt+shift+⬆️`, `alt+shift+⬇️`
     - Sor törlés (kivágás): `shift+del`
     - Kurzor duplikálás: `ctrl+alt+⬆️`, `ctrl+alt+⬇️`
+    - Sorok tördelése (word wrap): `ctrl + z`
 
 ## Visual Studio
   - **Komment (toggle):** `ctrl + k + ü`
@@ -24,6 +25,7 @@
   - **Turn off completions:** Tools > Options > IntelliCode > General
     - "Show whole line completions" ne legyen pipálva
   - **Color theme:** Tools > Options > Environment > General
+  - **Sorok tördelése (word wrap):** `ctrl + e + w`
 
 ## XAMPP
   - **phpMyAdmin (browser):** `http://localhost/phpmyadmin/`

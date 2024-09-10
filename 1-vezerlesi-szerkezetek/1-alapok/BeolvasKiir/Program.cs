@@ -22,16 +22,31 @@ namespace BeolvasKiir
             */
 
             // 2. Adjuk meg egy téglalap területét!
-            double a, b;
-            Console.Write("a: ");
-            a = Convert.ToSingle(Console.ReadLine());
-            Console.Write("b: ");
-            b = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine($"Terület: {a*b}");
+            //double a, b;
+            //Console.Write("a: ");
+            //a = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("b: ");
+            //b = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"Terület: {a*b}");
 
             // Mj: float megadása programban
             // float x = 1.4f;
 
+            // Implicit konverzió
+            //float x = 5;
+
+            // 3. Hányados
+            int a, b;
+            Console.Write("a: ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("b: ");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Hányados: {Convert.ToDouble(a) / Convert.ToDouble(b)}");
+            Console.WriteLine($"Hányados: {Convert.ToDouble(a) / b}");
+            Console.WriteLine($"Hányados: {(double)a / b}");
+            Console.WriteLine($"Hányados: {1.0 * a / b:0.00}");
+            Console.WriteLine($"Hányados: {1d * a / b:0 000.000}");
+            
             Console.ReadKey();
         }
     }

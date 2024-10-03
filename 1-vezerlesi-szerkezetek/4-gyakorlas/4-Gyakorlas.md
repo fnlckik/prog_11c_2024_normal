@@ -9,7 +9,6 @@
     3 3 2 8
     1 6 6 13
     5 6 6 17
-    Átlag: 
     ```
 
 2. **Utazás.** Jani egy szombati napon Budapestre akart jutni, de a MÁV ebben többet akadályozta, mint segítette.

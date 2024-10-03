@@ -1,4 +1,4 @@
-# 3. Ciklusok
+# 4. Gyakorlás
 
 1. **Három kocka.** Addig dobálunk 3 (szabályos, hatoldalú) kockával, amíg a dobott számok összege 6-nál kisebb vagy 15-nél nagyobb nem lesz. Készíts `C#` programot a kísérlet szimulációjaként! Minden sorba írd ki a dobott értékeket, valamint a három szám összegét!
 
@@ -30,9 +30,9 @@
 
 3. **Alternáló reciprokösszeg.** 
 
-    **a.** Olvass be egy $n$ egész számot, majd határozd meg $1$-től $n$-ig a számok reciprokainak a váltakozó előjellel képzett összegét!
+    **a.** Olvass be egy $n$ egész számot, majd határozd meg $1$-től $n$-ig a számok reciprokainak a váltakozó előjellel képzett összegét! Konzolra csak az összeg értékét kell kiírni, 3 tizedesjegyre kerekítve!
 
-    **Minta:** $n=100$ bemenetre 
+    **Példa:** $n=100$ bemenetre 
     
     $$1 - \dfrac{1}{2} + \dfrac{1}{3} - \dfrac{1}{4} + \dfrac{1}{5} - \dfrac{1}{6} + \ldots - \dfrac{1}{100} \approx 0.688$$
 

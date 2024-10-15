@@ -14,6 +14,7 @@ int[] x = {5, 7, 2, 2, 9, -1, 4, -3, 9, 3, 2, 1};
 3. **Maximum-kiválasztás.** Add meg a tömb legnagyobb elemének helyét és értékét! Több megoldás esetén az
 
     a. **első** helyét add meg;
+
     b. **utolsó** helyét add meg!
 
 ---

@@ -27,7 +27,7 @@ namespace Alapfeladatok
             int szorzat = 1;
             for (int i = 0; i < n; i++)
             {
-                if (x[i] % 2 == 0)
+                if (x[i] % 2 == 1)
                 {
                     // szorzat = szorzat * x[i]
                     szorzat *= x[i];
@@ -35,7 +35,7 @@ namespace Alapfeladatok
             }
             Console.WriteLine($"2. Párosak szorzata: {szorzat}");
 
-            // 3. Maximum-kiválasztás
+            // 3a. Maximum-kiválasztás
             int maxi = 0; // maxindex, maximális értékű elem indexe
             int maxe = x[0]; // maxert, maximális érték
             for (int i = 1; i < n; i++)
@@ -46,11 +46,11 @@ namespace Alapfeladatok
                     maxe = x[i];
                 }
             }
-            Console.WriteLine("3. Legnagyobb elem:");
-            Console.WriteLine($"   a) Értéke: {maxe}");
-            Console.WriteLine($"   b) Sorszáma: {maxi+1}");
+            Console.WriteLine("3a. Legnagyobb elem (első):");
+            Console.WriteLine($"    Értéke: {maxe}");
+            Console.WriteLine($"    Sorszáma: {maxi+1}");
 
-            // 4. Maximum-kiválasztás
+            // 3b. Maximum-kiválasztás
             int maxindex = n-1;
             int maxertek = x[n-1];
             for (int i = n-2; i >= 0; i--)
@@ -61,9 +61,9 @@ namespace Alapfeladatok
                     maxertek = x[i];
                 }
             }
-            Console.WriteLine("4. Legnagyobb elem (hátulról):");
-            Console.WriteLine($"   a) Értéke: {maxertek}");
-            Console.WriteLine($"   b) Sorszáma: {maxindex + 1}");
+            Console.WriteLine("3b. Legnagyobb elem (utolsó):");
+            Console.WriteLine($"    Értéke: {maxertek}");
+            Console.WriteLine($"    Sorszáma: {maxindex + 1}");
 
             Console.ReadKey();
         }

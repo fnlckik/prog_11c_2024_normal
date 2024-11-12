@@ -16,19 +16,19 @@ namespace Csapadek
             }
             Console.WriteLine();
 
-            for (int i = 0; i < csapadekok.Length; i++)
+            for (int i = 0; i < csapadekok.Length - 1; i++)
             {
-                Console.Write($"{i+1:00} - {i+2:00}. változás:");
+                Console.Write($"{i+1:00} - {i+2:00}. változás: ");
                 double elteres;
                 if (csapadekok[i] < csapadekok[i+1])
                 {
                     elteres = csapadekok[i + 1] - csapadekok[i];
-                    Console.Write($"növekszik {elteres}");
+                    Console.Write($"növekszik {elteres:0.00}");
                 }
                 else if (csapadekok[i] > csapadekok[i + 1])
                 {
                     elteres = csapadekok[i] - csapadekok[i+1];
-                    Console.Write($"csökken {elteres}");
+                    Console.Write($"csökken {elteres:0.00}");
                 }
                 else
                 {

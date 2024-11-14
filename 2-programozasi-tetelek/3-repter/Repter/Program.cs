@@ -85,6 +85,70 @@ namespace Repter
                 Console.WriteLine("4. Igaz, hogy mindegyik 5-nél nagyobb tömegű!");
             }
 
+            // F5 - Megszámolás
+            // Console.WriteLine(nevek[0].Length); -> "Kovács Anna" neve
+            db = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (nevek[i].Length > 10)
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"5. {db}");
+
+            // F6 - Megszámolás
+            db = 0;
+            for (i = 0; i < n - 1; i++)
+            {
+                if (tomegek[i] > tomegek[i+1])
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"6. {db}");
+
+            // F7 - Keresés (kiválasztás) + megszámolás
+            // C# nyelv: == tagadása !=
+            // SQL nyelv: = tagadása != vagy <>
+            // JS nyelv: === tagadása !==
+            i = 0;
+            while (nevek[i] != "Farkas Dóra")
+            {
+                i++;
+            }
+            double dora = tomegek[i];
+            db = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (tomegek[i] < dora)
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"7. {db}");
+
+            // F8 - Feltételes maximum
+            // Ötlet: használjuk ki, hogy a csomagok tömege >= 0
+            int maxi = 0;
+            double maxe = -1; // -végtelen
+            for (i = 0; i < n; i++)
+            {
+                if (tomegek[i] > maxe && tomegek[i] > 9 && tomegek[i] < 21)
+                {
+                    maxi = i;
+                    maxe = tomegek[i];
+                }
+            }
+            if (maxe == -1)
+            {
+                Console.WriteLine("8. Nincs a feltételnek megfelelő csomag!");
+            }
+            else
+            {
+                Console.WriteLine($"8. {nevek[maxi]}");
+            }
+
             Console.ReadKey();
         }
     }

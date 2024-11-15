@@ -26,14 +26,14 @@ Sándor 35 I
 Gabriella 21 I
 Réka 33 I
 Anna 18 I
-Henrik 24 H
+Henrik 24 I
 ```
 
 ## Feladatok
 
 1. Olvasd be az adatokat **konzol**ról, majd tárold el három tömbben! (A megoldáshoz kihasználható, hogy legfeljebb 100 adatunk lehet.)
 
-2. Határozd meg, hogy az emberek hány százaléka rendelkezik jogosítvánnyal! Két tizedesre kerekítve add meg a választ!
+2. Határozd meg, hogy az emberek hány százaléka rendelkezik jogosítvánnyal!
 
 3. Található-e olyan ember, aki 30 év feletti, de még nincs jogsija? Ha igen, add meg a nevét!
 

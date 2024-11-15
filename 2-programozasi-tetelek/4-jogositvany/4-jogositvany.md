@@ -1,6 +1,6 @@
 # 4. Jogosítvány
 
-Adatokat tárolunk $N$ darab emberről $(2\leq N \leq 100)$. Mindenkiről tudjuk a keresztnevét, az életkorát, valamint azt, hogy rendelkezik-e jogosítvánnyal.
+Adatokat tárolunk $N$ darab emberről $(10\leq N \leq 100)$. Mindenkiről tudjuk a keresztnevét, az életkorát, valamint azt, hogy rendelkezik-e jogosítvánnyal.
 
 Az adatokat **konzol**ról olvassuk be. Először az emberek számát, majd soronként egy-egy ember adatát (név, kor, jogsi). Egy soron belül az adatok szóközzel vannak elválasztva. Ha rendelkezik egy adott ember jogosítvánnyal, akkor "I", különben "H" szerepel a sor végén.
 

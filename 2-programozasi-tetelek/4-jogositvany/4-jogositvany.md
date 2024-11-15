@@ -7,24 +7,24 @@ Az adatokat **konzol**ról olvassuk be. Először az emberek számát, majd soro
 ## Minta bemenet
 ```
 20
-Dániel 30 I
-Márta 28 H
-Béla 25 I
+Daniel 30 I
+Marta 28 H
+Bela 25 I
 Kata 23 H
 Viktor 36 I
-Cecília 17 H
+Cecilia 17 H
 Emese 22 H
-József 29 H
+Jozsef 29 H
 Ferenc 19 I
-Tímea 34 H
-Péter 31 H
-Irén 20 I
-Nándor 27 I
-László 26 I
+Timea 34 H
+Peter 31 H
+Iren 20 I
+Nandor 27 I
+Laszlo 26 I
 Orsolya 32 I
-Sándor 35 I
+Sandor 35 I
 Gabriella 21 I
-Réka 33 I
+Reka 33 I
 Anna 18 I
 Henrik 24 I
 ```

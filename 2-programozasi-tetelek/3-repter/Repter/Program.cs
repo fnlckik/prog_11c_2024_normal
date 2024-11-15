@@ -130,6 +130,7 @@ namespace Repter
 
             // F8 - Feltételes maximum
             // Ötlet: használjuk ki, hogy a csomagok tömege >= 0
+            /*
             int maxi = 0;
             double maxe = -1; // -végtelen
             for (i = 0; i < n; i++)
@@ -147,6 +148,31 @@ namespace Repter
             else
             {
                 Console.WriteLine($"8. {nevek[maxi]}");
+            }
+            */
+
+            // F8 - Feltételes maximum (mo2)
+            // Keresés + Maximum kiválasztás (a talált elemtől kezdve)
+            i = 0;
+            while (i < n && !(9 < tomegek[i] && tomegek[i] < 21))
+            {
+                i++;
+            }
+            if (i < n) // találtunk a feltételnek megfelelőt
+            {
+                int maxi = i;
+                for (int j = i; j < n; j++)
+                {
+                    if (tomegek[j] > tomegek[maxi] && 9 < tomegek[j] && tomegek[j] < 21)
+                    {
+                        maxi = j;
+                    }
+                }
+                Console.WriteLine($"8. {nevek[maxi]}");
+            }
+            else
+            {
+                Console.WriteLine("8. Nincs feltételnek megfelelő!");
             }
 
             Console.ReadKey();

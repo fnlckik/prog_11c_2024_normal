@@ -1,0 +1,21 @@
+20
+Daniel 30 I
+Marta 28 H
+Bela 25 I
+Kata 23 H
+Viktor 36 I
+Cecilia 17 H
+Emese 22 H
+Jozsef 29 H
+Ferenc 19 I
+Timea 34 H
+Peter 31 H
+Iren 20 I
+Nandor 27 I
+Laszlo 26 I
+Orsolya 32 I
+Sandor 35 I
+Gabriella 21 I
+Reka 33 I
+Anna 18 I
+Henrik 24 I

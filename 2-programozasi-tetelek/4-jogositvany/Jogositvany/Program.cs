@@ -35,6 +35,37 @@ namespace Jogositvany
                 jogsik[i] = adatok[2] == "I";
             }
 
+            // F2 - Megszámolás
+            // jogsik[i] == true
+            int db = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (jogsik[i])
+                {
+                    db++;
+                }
+            }
+            double szazalek = (double) db / n * 100;
+            Console.WriteLine($"2. {szazalek}%");
+
+            // F3 - Keresés
+            i = 0;
+            while (i < n && !(korok[i] > 30 && !jogsik[i]))
+            {
+                i++;
+            }
+            if (i < n)
+            {
+                Console.WriteLine($"3. {nevek[i]}");
+            }
+            else
+            {
+                Console.WriteLine($"3. Nincs ilyen ember.");
+            }
+
+            // F4 - Min-Max kiválasztás
+            
+
             //Console.ReadKey();
         }
     }

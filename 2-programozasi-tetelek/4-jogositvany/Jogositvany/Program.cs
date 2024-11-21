@@ -64,7 +64,68 @@ namespace Jogositvany
             }
 
             // F4 - Min-Max kiválasztás
-            
+            /*
+            int maxe = korok[0];
+            for (i = 1; i < n; i++)
+            {
+                if (korok[i] > maxe)
+                {
+                    maxe = korok[i];
+                }
+            }
+            int mine = korok[0];
+            for (i = 1; i < n; i++)
+            {
+                if (korok[i] < mine)
+                {
+                    mine = korok[i];
+                }
+            }
+            Console.WriteLine($"3. {maxe - mine}");
+            */
+            int maxe = korok[0];
+            int mine = korok[0];
+            for (i = 1; i < n; i++)
+            {
+                if (korok[i] > maxe)
+                {
+                    maxe = korok[i];
+                }
+                if (korok[i] < mine)
+                {
+                    mine = korok[i];
+                }
+            }
+            Console.WriteLine($"3. {maxe - mine}");
+
+            // F5 - Megszámolás
+            int legalabb20 = 0;
+            int alattiak = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (korok[i] >= 20 && jogsik[i])
+                {
+                    legalabb20++;
+                }
+                else if (korok[i] < 20 && jogsik[i])
+                {
+                    alattiak++;
+                }
+            }
+            if (legalabb20 > alattiak)
+            {
+                Console.WriteLine("5. Igaz."); // a legalább 20 évesek többen vannak
+            }
+            else // (legalabb20 <= alattiak
+            {
+                Console.WriteLine("5. Nem igaz."); // a legalább 20 évesek legfeljebb annyian vannak
+            }
+
+            // F6 - Keresés -> while (nem járjuk be az egész tömböt)
+
+
+            // F7 - Összegzés
+
 
             //Console.ReadKey();
         }

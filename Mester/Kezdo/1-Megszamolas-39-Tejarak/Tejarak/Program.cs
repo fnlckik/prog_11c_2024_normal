@@ -25,7 +25,17 @@ namespace Tejarak
             }
 
             // Megszámolás
+            int db = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (arak[i] >= also && arak[i] <= felso)
+                {
+                    db++;
+                }
+            }
 
+            // Kiírás
+            Console.WriteLine(db);
         }
     }
 }

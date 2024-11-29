@@ -6,10 +6,10 @@
 
 2. Hozzunk létre egy `C#` projektet `Szamok` néven. Ezután csináljunk egy commit-ot!
 
-3. Egy `adatok.txt` fájlba vegyünk fel 13 számot! Erről is készüljön új commit!
+3. Egy `adatok.txt` fájlba vegyünk fel 7 számot! Erről is készüljön új commit!
 
 4. Egy `beolvas` nevű branch-en olvassunk be 7 egész számot konzolról egy `t` nevű tömbbe!
-   Pl.: `2, 1, -5, -7, 6, 5, -4`
+   Pl.: `2,1,-5,-7,6,5,-4`
 
 5. Egy `osszegzes` nevű branch-en számoljuk ki a `t` tömb elemeinek abszolútértékeinek az összegét!
 

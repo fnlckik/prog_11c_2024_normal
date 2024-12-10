@@ -24,10 +24,18 @@ namespace Fuggvenyek
             return a % 2 == 0;
         }
 
+        // maxe: lokális változó
         static int Max(int[] t)
         {
-            // ???
-            return 0;
+            int maxe = t[0];
+            for (int i = 1; i < t.Length; i++)
+            {
+                if (maxe < t[i])
+                {
+                    maxe = t[i];
+                }
+            }
+            return maxe;
         }
 
         static void Main(string[] args)
@@ -43,9 +51,11 @@ namespace Fuggvenyek
             // F2 - Páros-e?
             Console.WriteLine(ParosE(5)); // false
             Console.WriteLine(ParosE(162)); // true
+            Console.WriteLine();
 
             // F3 - Maximum
             Console.WriteLine(Max(new int[] { 4, 7, -3, 12, 7, 14, -1 }));
+            Console.WriteLine(Max(new int[] { -1 }));
         }
     }
 }

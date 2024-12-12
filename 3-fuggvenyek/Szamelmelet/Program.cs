@@ -56,6 +56,37 @@ namespace Szamelmelet
             Console.WriteLine();
         }
 
+        static int OsztokSzama(int n)
+        {
+            if (n == 1) return 1;
+            int db = 2;
+            for (int i = 2; i < n; i++)
+            {
+                if (n % i == 0)
+                {
+                    db++;
+                }
+            }
+            return db;
+        }
+
+        static int SokOsztos(int[] x)
+        {
+            int i = 0;
+            while (i < x.Length && !(OsztokSzama(x[i]) >= 20))
+            {
+                i++;
+            }
+            if (i <  x.Length)
+            {
+                return x[i];
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
         static void Main(string[] args)
         {
             /*
@@ -74,7 +105,9 @@ namespace Szamelmelet
             //Console.WriteLine(OsztokSzama(6)); // 4
             //Console.WriteLine(OsztokSzama(1001)); // 8
             //Console.WriteLine(OsztokSzama(360)); // 24
-            Console.WriteLine("alma");
+            // Tegyük fel, hogy a tömbben csak pozitív elemek vannak
+            int k = SokOsztos(new int[] { 6, 1001, 48, 360, 75 });
+            Console.WriteLine("Sok osztós szám: " + k);
         }
     }
 }

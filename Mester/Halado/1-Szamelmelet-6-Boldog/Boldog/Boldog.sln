@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boldog", "Boldog.csproj", "{67164B6B-DB29-4F5A-9C64-EE2C72A9EC15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67164B6B-DB29-4F5A-9C64-EE2C72A9EC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67164B6B-DB29-4F5A-9C64-EE2C72A9EC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67164B6B-DB29-4F5A-9C64-EE2C72A9EC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67164B6B-DB29-4F5A-9C64-EE2C72A9EC15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9919A963-6803-4001-90CA-7313ADCFD6D6}
+	EndGlobalSection
+EndGlobal

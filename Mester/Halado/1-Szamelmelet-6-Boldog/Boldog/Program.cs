@@ -32,6 +32,26 @@ namespace Boldog
             return osszeg;
         }
 
+        /*
+        if (n == 1 || n == 7)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        } 
+        */
+        static bool BoldogE(int n)
+        {
+            // Convert.ToString(n).Length > 1
+            while (n >= 10)
+            {
+                n = Negyzetosszeg(n);
+            }
+            return n == 1 || n == 7;
+        }
+
         static void Main(string[] args)
         {
             //Console.WriteLine(Negyzetosszeg(23)); // 13
@@ -42,6 +62,18 @@ namespace Boldog
             //Console.WriteLine(BoldogE(15)); // false
             //Console.WriteLine(BoldogE(18)); // false
             //Console.WriteLine(BoldogE(19)); // true
+
+            string[] sor = Console.ReadLine().Split(' ');
+            int a = Convert.ToInt32(sor[0]);
+            int b = Convert.ToInt32(sor[1]);
+
+            for (int i = a; i <= b; i++)
+            {
+                if (BoldogE(i))
+                {
+                    Console.Write(i + " ");
+                }
+            }
         }
     }
 }

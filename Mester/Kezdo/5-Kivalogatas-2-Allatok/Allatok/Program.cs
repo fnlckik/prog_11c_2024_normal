@@ -15,10 +15,16 @@ namespace Allatok
             }
         }
 
-        static bool Eleme(string s, string[] bal)
+        // t = {"roka", "roka", "fogoly", "csiga", ...}
+        // s = "fogoly"
+        static bool Eleme(string s, string[] t)
         {
-            // HF - Eldöntés tétel!
-            return true;
+            int i = 0;
+            while (i < t.Length && !(t[i] == s))
+            {
+                i++;
+            }
+            return i < t.Length;
         }
 
         static void Kivalogat(string[] bal, string[] jobb, int n, string[] allatok, out int db)
@@ -27,7 +33,9 @@ namespace Allatok
             for (int i = 0; i < n; i++)
             {
                 // Eleme-e a jobb oldali "lény" a bal oldali tömbnek?
-                if (Eleme(jobb[i], bal))
+                // 1. Állatot eszik (jobboldalon állat van)
+                // 2. Még nem vettük ki (nincs még benne az allatok tömbben.
+                if (Eleme(jobb[i], bal) && !Eleme(bal[i], allatok))
                 {
                     allatok[db] = bal[i]; // allatevo allat
                     db++;

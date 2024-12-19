@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Schema;
 
 namespace Matrix
 {
@@ -53,6 +54,22 @@ namespace Matrix
             }
             Console.WriteLine($"\n3. feladat: {osszeg}");
 
+            // F3.5
+            int[] t = { 5, 7, -3, 2 };
+            int maxtombi = 0;
+            for (int i = 0; i < t.Length; i++)
+            {
+                if (t[i] > t[maxtombi])
+                {
+                    maxtombi = i;
+                }
+            }
+            Console.WriteLine($"3.5. feladat: {maxtombi+1}");
+
+            // F4
+            //int maxi;
+            //int maxj;
+            //Console.WriteLine($"\n4. feladat: ({maxi+1}, {maxj+1})");
         }
     }
 }

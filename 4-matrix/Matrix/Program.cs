@@ -67,9 +67,49 @@ namespace Matrix
             Console.WriteLine($"3.5. feladat: {maxtombi+1}");
 
             // F4
-            //int maxi;
-            //int maxj;
+            // Kezdetben tekintsük a bal felső sarkot
+            int maxi = 0;
+            int maxj = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    if (matrix[maxi, maxj] < matrix[i, j])
+                    {
+                        maxi = i;
+                        maxj = j;
+                    }
+                }
+            }
             //Console.WriteLine($"\n4. feladat: ({maxi+1}, {maxj+1})");
+            Console.WriteLine("\n4. feladat: (" + (maxi + 1) + ", " + (maxj + 1) + ")");
+
+            // F5 - a) Sorok összege
+            Console.WriteLine($"\n5. feladat");
+            Console.Write($"\ta). Soronként összeg: ");
+            for (int i = 0; i < n; i++)
+            {
+                int s = 0;
+                for (int j = 0; j < m; j++)
+                {
+                    s += matrix[i, j];
+                }
+                Console.Write(s + " ");
+            }
+            Console.WriteLine();
+
+            // F5 - b) Oszlopok összege
+            Console.Write($"\tb). Oszloponként összeg: ");
+            for (int j = 0; j < m; j++)
+            {
+                int oszloposszeg = 0;
+                for (int i = 0; i < n; i++)
+                {
+                    oszloposszeg += matrix[i, j];
+                }
+                Console.Write(oszloposszeg + " ");
+            }
+            Console.WriteLine();
         }
     }
 }

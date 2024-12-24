@@ -1,0 +1,11 @@
+5
+Pickwick
+100
+Lipton
+200
+Teekanne
+200
+Greenfield
+200
+Nelson
+100

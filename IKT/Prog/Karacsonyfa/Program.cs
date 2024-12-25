@@ -4,50 +4,85 @@ namespace Karacsonyfa
 {
     internal class Program
     {
-        static void Main(string[] args)
+        // Az i. sor első szóközei
+        static void Szokozok(int n)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write(" ");
+            }
+        }
+
+        // Az i. sor csillagai
+        static void Csillagok(int n, Random r)
+        {
+            for (int j = 1; j <= n; j++)
+            {
+                int p = r.Next(1, 101); // p: valószínűség
+                if (p <= 20)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("*");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                }
+                else if (p <= 40)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("\u25CF");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                }
+                else
+                {
+                    Console.Write("*");
+                }
+            }
+            
+        }
+
+        // Konzol szélessége legyen 41 egység!
+        // a: trapéz "felső" szélessége
+        // b: trapéz "alsó" szélessége
+        static void TrapezRajz(int a, int b)
         {
             Random r = new Random();
-            int db = 1;
-            int szokoz = 6; // első sorban 6 szóköz kell balra és jobbra
+            int db = a;
+            int szokoz = (41-a) / 2; // első sorban ennyi szóköz kell balra és jobbra
             Console.ForegroundColor = ConsoleColor.Green;
-            for (int i = 1; i <= 7; i++)
+            for (int i = 1; i <= 1 + (b-a) / 2; i++)
             {
-                // Az i. sor első szóközei
-                for (int j = 0; j < szokoz; j++)
-                {
-                    Console.Write(" ");
-                }
-                // Az i. sor csillagai
-                for (int j = 1; j <= db; j++)
-                {
-                    int p = r.Next(1, 101); // p: valószínűség
-                    if (p <= 20)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.Write("*");
-                        Console.ForegroundColor = ConsoleColor.Green;
-                    }
-                    else if (p <= 40)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write("*");
-                        Console.ForegroundColor = ConsoleColor.Green;
-                    }
-                    else
-                    {
-                        Console.Write("*");
-                    }
-                }
-                // Az i. sor utolsó szóközök
-                for (int j = 0; j < szokoz; j++)
-                {
-                    Console.Write(" ");
-                }
+                Szokozok(szokoz);
+                Csillagok(db, r);
                 Console.WriteLine();
                 db += 2;
                 szokoz--;
             }
             Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void TorzsRajz(int n, int m)
+        {
+            int szokoz = (41 - (2 * m - 1)) / 2;
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            for (int i = 0; i < n; i++)
+            {
+                Szokozok(szokoz);
+                for (int j = 0; j < m; j++)
+                {
+                    Console.Write("| ");
+                }
+                Console.WriteLine();
+            }
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.Clear();
+            TrapezRajz(1, 13);
+            TrapezRajz(9, 27);
+            TrapezRajz(17, 41);
+            TorzsRajz(5, 7); // 5 sorba 7 darab vonal a torzs
         }
     }
 }

@@ -1,0 +1,12 @@
+11
+Eger 18
+Budapest 23
+Albertirsa 17
+Gyongyos 5
+Cegled 14
+Szolnok 17
+Kecskemet 27
+Pecs 22
+Szeged 28
+Nyiregyhaza 14
+Miskolc 21

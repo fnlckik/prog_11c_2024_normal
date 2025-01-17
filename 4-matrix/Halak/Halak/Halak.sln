@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halak", "Halak.csproj", "{AE8A2A4F-AB32-453F-82AD-9D6F0C03A70D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE8A2A4F-AB32-453F-82AD-9D6F0C03A70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8A2A4F-AB32-453F-82AD-9D6F0C03A70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8A2A4F-AB32-453F-82AD-9D6F0C03A70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8A2A4F-AB32-453F-82AD-9D6F0C03A70D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18CA78D1-46E1-48C5-9631-145C4C5F7366}
+	EndGlobalSection
+EndGlobal

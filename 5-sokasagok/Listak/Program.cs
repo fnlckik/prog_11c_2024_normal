@@ -45,6 +45,17 @@ namespace Listak
 
             cars.Remove("Honda");
             Print(cars);
+
+            cars.RemoveAt(0);
+            Print(cars);
+
+            cars.Remove("Citroen");
+            Print(cars);
+
+            Console.WriteLine(cars.Contains("Renault")); // Eldöntés
+            Console.WriteLine(cars.IndexOf("Honda")); // Keresés (első)
+            Console.WriteLine(cars.LastIndexOf("Honda")); // Keresés (utolsó)
+            Console.WriteLine(cars.IndexOf("Citroen")); // Nincs benne: -1
         }
 
         static double Osszeg<T>(List<T> lista)

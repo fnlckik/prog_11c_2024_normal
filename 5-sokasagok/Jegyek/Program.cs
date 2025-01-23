@@ -10,6 +10,13 @@ namespace Jegyek
             List<List<int>> tanulok = new List<List<int>>();
             Beolvas(tanulok);
             Kiir(tanulok);
+            Atlagok(tanulok);
+        }
+
+        // Írd ki a tanulók átlagait! 4,4 4,75 2 3,33 ...
+        static void Atlagok(List<List<int>> tanulok)
+        {
+            
         }
 
         /*

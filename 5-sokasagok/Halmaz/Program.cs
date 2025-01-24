@@ -22,10 +22,9 @@ namespace Halmaz
 
             halmaz.Add(13); // { 4, 6, 1, 2, 13 }
             halmaz.Remove(6);
-            Console.WriteLine("Eleme-e a 13-mas? " + halmaz.Contains(13));
+            Console.WriteLine("Eleme-e a 13-mas? " + halmaz.Contains(13)); // tartalmazza
 
-            Console.Write("Halmaz elemei: ");
-            Kiir(halmaz);
+            Kiir("Halmaz elemei: ", halmaz);
 
             Console.WriteLine();
             Console.WriteLine("--------------------------");
@@ -33,13 +32,31 @@ namespace Halmaz
 
             HashSet<string> v1 = new HashSet<string> { "Bence", "Réka", "Máté", "Pisti", "Johanna", "Kata" };
             HashSet<string> v2 = new HashSet<string> { "Máté", "Zalán", "Csaba", "Kata", "Bence" };
+            Kiir("1. Verseny: ", v1);
+            Kiir("2. Verseny: ", v2);
+            Kiir("Mindkettő: ", Metszet(v1, v2));
+            Kiir("Legalább egyik verseny: ", Unio(v1, v2));
         }
 
-        static void Kiir(HashSet<int> halmaz)
+        static HashSet<string> Metszet(HashSet<string> v1, HashSet<string> v2)
         {
+            HashSet<string> metszet = new HashSet<string>();
+            foreach (string elem in v1)
+            {
+                if (v2.Contains(elem))
+                {
+                    metszet.Add(elem);
+                }
+            }
+            return metszet;
+        }
+
+        static void Kiir<T>(string szoveg, HashSet<T> halmaz)
+        {
+            Console.Write(szoveg);
             Console.Write("{ ");
             int db = 0;
-            foreach (int elem in halmaz)
+            foreach (T elem in halmaz)
             {
                 db++;
                 if (db < halmaz.Count)

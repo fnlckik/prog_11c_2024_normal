@@ -1,0 +1,14 @@
+img#logo {
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a span {
+    vertical-align: middle;
+}
+

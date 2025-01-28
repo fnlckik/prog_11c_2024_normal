@@ -36,14 +36,62 @@ namespace Halmaz
             Kiir("2. Verseny: ", v2);
             Kiir("Mindkettő: ", Metszet(v1, v2));
             Kiir("Legalább egyik verseny: ", Unio(v1, v2));
+            Kiir("Csak az 1. versenyen indulók: ", Kulonbseg(v1, v2));
+
+            HashSet<string> bitfarago = new HashSet<string> { "Máté", "Csaba", "Zalán" };
+            Console.WriteLine("Részhalmaz(bitfarago, v1)? " + ReszhalmazE(bitfarago, v1)); // false
+            Console.WriteLine("Részhalmaz(bitfarago, v2)? " + ReszhalmazE(bitfarago, v2)); // true
+
+            // Van-e olyan, aki mindkét versenyen elindult? (mindkét halmazban benne van)
+            Console.WriteLine("VanKozos(bitfarago, v1)? " + VanKozos(bitfarago, v1)); // true
         }
 
-        static HashSet<string> Metszet(HashSet<string> v1, HashSet<string> v2)
+        // A halmaz1 részhalmaza-e halmaz2-nek?
+        static bool ReszhalmazE(HashSet<string> halmaz1, HashSet<string> halmaz2)
+        {
+            bool reszhalmaza = true;
+            foreach (string elem in halmaz1)
+            {
+                if (!halmaz2.Contains(elem))
+                {
+                    reszhalmaza = false;
+                }
+            }
+            return reszhalmaza;
+        }
+
+        // Megadja az 1. halmaz azon elemeit, amik a 2. halmazban nincsenek benne
+        static HashSet<string> Kulonbseg(HashSet<string> halmaz1, HashSet<string> halmaz2)
+        {
+            HashSet<string> kulonbseg = new HashSet<string>();
+            foreach (string elem in halmaz1)
+            {
+                if (!halmaz2.Contains(elem))
+                {
+                    kulonbseg.Add(elem);
+                }
+            }
+            return kulonbseg;
+        }
+
+        static HashSet<string> Unio(HashSet<string> halmaz1, HashSet<string> halmaz2)
+        {
+            // Vigyázat! Ha unio elemeit módosítjuk, akkor az eredeti halmaz is módosul!
+            // HashSet<string> unio = halmaz1;
+            HashSet<string> unio = new HashSet<string>(halmaz1);
+            foreach (string elem in halmaz2)
+            {
+                unio.Add(elem);
+            }
+            return unio;
+        }
+
+        static HashSet<string> Metszet(HashSet<string> halmaz1, HashSet<string> halmaz2)
         {
             HashSet<string> metszet = new HashSet<string>();
-            foreach (string elem in v1)
+            foreach (string elem in halmaz1)
             {
-                if (v2.Contains(elem))
+                if (halmaz2.Contains(elem))
                 {
                     metszet.Add(elem);
                 }

@@ -11,12 +11,31 @@ namespace Jegyek
             Beolvas(tanulok);
             Kiir2(tanulok);
             Console.Write("Átlagok: ");
-            Atlagok2(tanulok);
+            
+            List<double> atlagok = Atlagok2(tanulok);
+
             // Adjuk meg a legjobb tanuló sorszámát! => 2
+            int maxi = Legnagy(atlagok);
+            Console.WriteLine("\nLegjobb tanuló sorszáma: " + maxi);
         }
 
-        static void Atlagok2(List<List<int>> tanulok)
+        static int Legnagy(List<double> atlagok)
         {
+            // 4,40 4,75 2,00 3,33 4,67
+            int maxind = 0;
+            for (int i = 0; i < atlagok.Count; i++)
+            {
+                if (atlagok[i] > atlagok[maxind])
+                {
+                    maxind = i;
+                }
+            }
+            return maxind + 1;
+        }
+
+        static List<double> Atlagok2(List<List<int>> tanulok)
+        {
+            List<double> atlagok = new List<double>();
             for (int i = 0; i < tanulok.Count; i++)
             {
                 int osszeg = 0;
@@ -26,7 +45,9 @@ namespace Jegyek
                 }
                 double atlag = (double)osszeg / tanulok[i].Count;
                 Console.Write($"{atlag:0.00} ");
+                atlagok.Add(atlag);
             }
+            return atlagok;
         }
 
         static void Kiir3(List<List<int>> tanulok)

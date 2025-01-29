@@ -12,3 +12,30 @@ nav a span {
     vertical-align: middle;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+div#kereses {
+    flex-grow: 1;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#kereses button {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    float: right;
+}
+
+#kereses input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.5em;
+}

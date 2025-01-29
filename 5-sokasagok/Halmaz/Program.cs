@@ -44,6 +44,40 @@ namespace Halmaz
 
             // Van-e olyan, aki mindkét versenyen elindult? (mindkét halmazban benne van)
             Console.WriteLine("VanKozos(bitfarago, v1)? " + VanKozos(bitfarago, v1)); // true
+
+            Console.WriteLine();
+            Console.WriteLine("--------------------------");
+            Console.WriteLine();
+
+            HashSet<string> metszet = new HashSet<string>(v1);
+            metszet.IntersectWith(v2);
+            Kiir("Mindkettő: ", metszet);
+
+            HashSet<string> unio = new HashSet<string>(v1);
+            unio.UnionWith(v2);
+            Kiir("Legalább egyik verseny: ", unio);
+
+            HashSet<string> kulonbseg = new HashSet<string>(v1);
+            kulonbseg.ExceptWith(v2);
+            Kiir("Csak az 1. versenyen indulók: ", kulonbseg);
+
+            Console.WriteLine("Részhalmaz(bitfarago, v1)? " + bitfarago.IsSubsetOf(v1));
+            Console.WriteLine("Részhalmaz(bitfarago, v2)? " + bitfarago.IsSubsetOf(v2));
+            Console.WriteLine("VanKozos(bitfarago, v1)? " + bitfarago.Overlaps(v1));
+        }
+
+        // Van-e közös eleme halmaz1-nek és halmaz2-nek?
+        static bool VanKozos(HashSet<string> halmaz1, HashSet<string> halmaz2)
+        {
+            bool van = false;
+            foreach (string elem in halmaz1)
+            {
+                if (halmaz2.Contains(elem))
+                {
+                    van = true;
+                }
+            }
+            return van;
         }
 
         // A halmaz1 részhalmaza-e halmaz2-nek?

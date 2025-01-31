@@ -1,0 +1,13 @@
+12
+Szolnok 7
+Budapest 20
+Miskolc 13
+Budapest 12
+Budapest 43
+Szolnok 8
+Szeged 12
+Debrecen 5
+Szolnok 3
+Debrecen 1
+Szeged 4
+Budapest 18

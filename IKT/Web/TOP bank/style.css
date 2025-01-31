@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 img#logo {
     height: 1.5em;
     vertical-align: middle;
@@ -24,6 +28,9 @@ div#kereses {
     border-radius: 20px;
     justify-content: space-between;
     display: flex;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0.5em;
 }
 
 #kereses button {
@@ -36,6 +43,37 @@ div#kereses {
 #kereses input {
     border: none;
     outline: none;
-    border-radius: 20px;
-    padding: 0.5em;
+    border-radius: 20px;   
+}
+
+div#belepes {
+    /* border: 2px solid red; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+#belepes a {
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box; /* a magasságba beleszámít a padding és a border is */
+    background-color: rgb(82, 174, 48);
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+#belepes button {
+    height: 40px;
+    border: none;
+    background-color: rgb(82, 174, 48);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#belepes img {
+    height: 20px;
 }

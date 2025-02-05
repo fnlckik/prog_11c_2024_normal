@@ -10,6 +10,8 @@ img#logo {
 nav a {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
 }
 
 nav a span {
@@ -68,12 +70,37 @@ div#belepes {
 
 #belepes button {
     height: 40px;
+    width: 40px;
     border: none;
     background-color: rgb(82, 174, 48);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 #belepes img {
-    height: 20px;
+    height: 15px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/*
+    Formázzuk a keresést (div-et), aki rendelkezik
+    input gyerekkel, aki fókuszban van.
+*/
+div#kereses:has(input:focus) {
+    border-color: green;
+}
+
+#belepes button:hover img {
+    transform: rotateX(180deg);
+}
+
+#belepes button img {
+    transition: 0.5s;
 }

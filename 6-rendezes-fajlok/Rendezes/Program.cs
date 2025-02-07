@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Rendezes
 {
@@ -7,17 +8,28 @@ namespace Rendezes
     {
         static void Main(string[] args)
         {
+            Stopwatch ora = new Stopwatch();
+
             //List<int> lista = new List<int> { 5, 3, 8, 5, 2 }; // 2, 3, 5, 5, 8
-            List<int> lista = Feltolt(100000);
-            Kiir(lista, "Eredeti lista: ");
+            List<int> lista = Feltolt(1000);
+            //Kiir(lista, "Eredeti lista: ");
 
             List<int> a = new List<int>(lista);
+            ora.Start();
             a.Sort(); // Növekvő
-            Kiir(a, "Sort rendezés: ");
+            ora.Stop();
+            long idoSort = ora.ElapsedTicks;
+            //Kiir(a, "Sort rendezés: ");
 
             List<int> b = new List<int>(lista);
+            ora.Restart();
             MinRendez(b);
-            Kiir(b, "Mininimum kiválasztásos rendezés: ");
+            ora.Stop();
+            long idoMinRendez = ora.ElapsedTicks;
+            //Kiir(b, "Mininimum kiválasztásos rendezés: ");
+
+            Console.WriteLine("Sort ideje: " + idoSort);
+            Console.WriteLine("MinRendez ideje: " + idoMinRendez);
         }
 
         static List<int> Feltolt(int n)

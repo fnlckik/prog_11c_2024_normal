@@ -33,6 +33,7 @@ div#kereses {
     height: 40px;
     box-sizing: border-box;
     padding: 0.5em;
+    background-color: white;
 }
 
 #kereses button {
@@ -103,4 +104,29 @@ div#kereses:has(input:focus) {
 
 #belepes button img {
     transition: 0.5s;
+}
+
+#belepes button, #belepes a {
+    transition: 0.5s;
+}
+
+#belepes button:hover, #belepes a:hover {
+    background-color: rgb(0, 220, 0);
+    cursor: pointer;
+}
+
+/* ---------------------------- */
+
+header {
+    background-image: url(images/piggy-bank.jpg);
+    background-size: cover;
+}
+
+/* A header-ben lévő nav-ot közvetlen követő div elem */
+header nav+div {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* függőleges MOST */
 }

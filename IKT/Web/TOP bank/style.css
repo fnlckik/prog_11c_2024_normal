@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 1em;
+}
+
 img#logo {
     height: 1.5em;
     vertical-align: middle;
@@ -118,8 +122,12 @@ div#kereses:has(input:focus) {
 /* ---------------------------- */
 
 header {
+    /* background-image: url(images/piggy-black.jfif); */
     background-image: url(images/piggy-bank.jpg);
-    background-size: cover;
+    /* background-size: 25%; */
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 85% 60%;
 }
 
 /* A header-ben lévő nav-ot közvetlen követő div elem */
@@ -129,4 +137,22 @@ header nav+div {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* függőleges MOST */
+}
+
+/* if(width >= 670) */
+@media (min-width: 670px) {
+    body {
+        width: 670px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        background-image: none;
+    }
+
+    header nav+div {
+        width: 100%;
+    }
 }

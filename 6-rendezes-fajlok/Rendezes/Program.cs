@@ -11,7 +11,7 @@ namespace Rendezes
             Stopwatch ora = new Stopwatch();
 
             //List<int> lista = new List<int> { 5, 3, 8, 5, 2 }; // 2, 3, 5, 5, 8
-            List<int> lista = Feltolt(1000);
+            List<int> lista = Feltolt(20000);
             //Kiir(lista, "Eredeti lista: ");
 
             List<int> a = new List<int>(lista);
@@ -20,6 +20,7 @@ namespace Rendezes
             ora.Stop();
             long idoSort = ora.ElapsedTicks;
             //Kiir(a, "Sort rendezés: ");
+            Console.WriteLine("Sort ideje: " + idoSort);
 
             List<int> b = new List<int>(lista);
             ora.Restart();
@@ -27,9 +28,37 @@ namespace Rendezes
             ora.Stop();
             long idoMinRendez = ora.ElapsedTicks;
             //Kiir(b, "Mininimum kiválasztásos rendezés: ");
-
-            Console.WriteLine("Sort ideje: " + idoSort);
             Console.WriteLine("MinRendez ideje: " + idoMinRendez);
+
+            List<int> c = new List<int>(lista);
+            ora.Restart();
+            Buborekos(c);
+            ora.Stop();
+            long idoBuborekos = ora.ElapsedTicks;
+            //Kiir(c, "Buborékos rendezés: ");
+            Console.WriteLine("Buborékos ideje: " + idoBuborekos);
+        }
+
+        // Tudunk-e rajta javítani?
+        static void Buborekos(List<int> lista)
+        {
+            int n = lista.Count;
+            for (int i = 0; i < n; i++)
+            {
+                bool csere = false;
+                // i: ennyi rendezett elem van már (a végén)
+                // Rendezetlenek száma: n-i
+                for (int j = 0; j < n-i-1; j++)
+                {
+                    // Rossz sorrend: ha előrébb van a nagyobb elem
+                    if (lista[j] > lista[j+1])
+                    {
+                        Csere(lista, j, j + 1);
+                        csere = true;
+                    }
+                }
+                if (!csere) return;
+            }
         }
 
         static List<int> Feltolt(int n)

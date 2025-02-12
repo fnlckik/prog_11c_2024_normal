@@ -20,6 +20,8 @@ nav a {
 
 nav a span {
     vertical-align: middle;
+    font-family: 'Pangolin';
+    font-weight: bold;
 }
 
 nav {
@@ -125,9 +127,12 @@ header {
     /* background-image: url(images/piggy-black.jfif); */
     background-image: url(images/piggy-bank.jpg);
     /* background-size: 25%; */
-    background-size: 60%;
+    /* background-size: 60%; */
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 85% 60%;
+    /* !!!HF */
+    background-position: 0% 60%;
+    padding: 1.25em;
 }
 
 /* A header-ben lévő nav-ot közvetlen követő div elem */
@@ -137,12 +142,14 @@ header nav+div {
     display: flex;
     flex-direction: column;
     justify-content: space-around; /* függőleges MOST */
+    text-align: center;
+    align-items: center; /* vízszintes MOST */
 }
 
-/* if(width >= 670) */
-@media (min-width: 670px) {
+/* if(width >= 900) */
+@media (min-width: 900px) {
     body {
-        width: 670px;
+        width: 900px;
         margin: auto;
     }
 }
@@ -154,5 +161,32 @@ header nav+div {
 
     header nav+div {
         width: 100%;
+    }
+}
+
+button#reszletek {
+    background-color: rgb(210, 137, 0);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 1.25em;
+    width: 250px;
+    font-weight: bold;
+}
+
+button#reszletek:hover {
+    animation: nagyitas 1s infinite;
+    cursor: pointer;
+}
+
+@keyframes nagyitas {
+    0% {
+        transform: scale(100%);
+    }
+    50% {
+        transform: scale(110%);
+    }
+    100% {
+        transform: scale(100%);
     }
 }

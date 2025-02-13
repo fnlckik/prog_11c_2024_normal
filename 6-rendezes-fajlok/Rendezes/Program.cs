@@ -11,7 +11,9 @@ namespace Rendezes
             Stopwatch ora = new Stopwatch();
 
             //List<int> lista = new List<int> { 5, 3, 8, 5, 2 }; // 2, 3, 5, 5, 8
-            List<int> lista = Feltolt(20000);
+            List<int> lista = Feltolt(200);
+            //List<int> lista = FeltoltRendezett(200);
+            //List<int> lista = FeltoltMajdnemRendezett(20000);
             //Kiir(lista, "Eredeti lista: ");
 
             List<int> a = new List<int>(lista);
@@ -37,6 +39,67 @@ namespace Rendezes
             long idoBuborekos = ora.ElapsedTicks;
             //Kiir(c, "Buborékos rendezés: ");
             Console.WriteLine("Buborékos ideje: " + idoBuborekos);
+
+            List<int> d = new List<int>(lista);
+            Beszurasos(d);
+            Kiir(d, "Beszúrásos rendezés: ");
+        }
+
+        static void Beszurasos(List<int> lista)
+        {
+            List<int> rendezett = new List<int>();
+            foreach (int elem in lista)
+            {
+                int i = 0;
+                // rendezett[i] < elem
+                while (i < rendezett.Count && !(rendezett[i] >= elem))
+                {
+                    i++;
+                }
+                if (i < rendezett.Count)
+                {
+                    rendezett.Insert(i, elem);
+                }
+                else
+                {
+                    rendezett.Insert(rendezett.Count, elem);
+                }
+            }
+            lista = rendezett;
+        }
+
+        // { 20, 21, 22, 23, 22, 23, 24, 23, 22, 23, 24, 25, 26, 27, 26 }
+        // 90% valószínűséggel növekednek az elemek (10% valószínűséggel csökkennek)
+        // Minél inkább rendezett a lista, annál gyorsabb a buborékos!
+        static List<int> FeltoltMajdnemRendezett(int n)
+        {
+            List<int> eredmeny = new List<int>();
+            Random r = new Random();
+            int akt = 20;
+            for (int i = 0; i < n; i++)
+            {
+                eredmeny.Add(akt);
+                int esely = r.Next(1, 101); // 1-100
+                if (esely <= 90)
+                {
+                    akt++;
+                }
+                else
+                {
+                    akt--;
+                }
+            }
+            return eredmeny;
+        }
+
+        static List<int> FeltoltRendezett(int n)
+        {
+            List<int> eredmeny = new List<int>();
+            for (int i = 0; i < n; i++)
+            {
+                eredmeny.Add(i+1);
+            }
+            return eredmeny;
         }
 
         // Tudunk-e rajta javítani?

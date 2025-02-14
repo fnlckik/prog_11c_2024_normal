@@ -56,6 +56,7 @@ div#kereses {
 }
 
 div#belepes {
+    flex-grow: 1;
     /* border: 2px solid red; */
     height: 40px;
     display: flex;
@@ -64,6 +65,9 @@ div#belepes {
 }
 
 #belepes a {
+    flex-grow: 1;
+    justify-content: center;
+    /* text-align: center; */
     padding: 10px;
     height: 40px;
     box-sizing: border-box; /* a magasságba beleszámít a padding és a border is */
@@ -117,7 +121,7 @@ div#kereses:has(input:focus) {
 }
 
 #belepes button:hover, #belepes a:hover {
-    background-color: rgb(0, 220, 0);
+    background-color: rgb(0, 190, 0);
     cursor: pointer;
 }
 
@@ -137,6 +141,11 @@ header {
 
 /* A header-ben lévő nav-ot közvetlen követő div elem */
 header nav+div {
+    margin: 1em 0 1em 0; /* fent jobbra lent balra => shorthand syntax*/
+    /* margin-top: 2em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0; */
     height: 300px;
     width: 50%;
     display: flex;
@@ -154,13 +163,14 @@ header nav+div {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 670px) {
     header {
         background-image: none;
     }
 
     header nav+div {
         width: 100%;
+        margin: 0;
     }
 }
 

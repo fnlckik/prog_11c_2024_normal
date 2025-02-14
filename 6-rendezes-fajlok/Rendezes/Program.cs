@@ -41,11 +41,27 @@ namespace Rendezes
             Console.WriteLine("Buborékos ideje: " + idoBuborekos);
 
             List<int> d = new List<int>(lista);
-            Beszurasos(d);
-            Kiir(d, "Beszúrásos rendezés: ");
+            ora.Restart();
+            Beszurasos(ref d);
+            ora.Stop();
+            long idoBeszurasos = ora.ElapsedTicks;
+            Console.WriteLine("Beszúrásos ideje: " + idoBeszurasos);
+            //Kiir(d, "Beszúrásos rendezés: ");
+
+            //int[] x = { 3, 4, 5 };
+            //f(ref x);
+            //Console.WriteLine("x: " + x[0]);
         }
 
-        static void Beszurasos(List<int> lista)
+        //static void f(ref int[] x)
+        //{
+        //    x = new int[] { 6, 7, 8, 6 };
+        //}
+
+        // Hogyan lehetne javítani?
+        // 1. Logaritmikus keresés
+        // 2. LinkedList
+        static void Beszurasos(ref List<int> lista)
         {
             List<int> rendezett = new List<int>();
             foreach (int elem in lista)
@@ -56,17 +72,18 @@ namespace Rendezes
                 {
                     i++;
                 }
-                if (i < rendezett.Count)
-                {
-                    rendezett.Insert(i, elem);
-                }
-                else
-                {
-                    rendezett.Insert(rendezett.Count, elem);
-                }
+                rendezett.Insert(i, elem);
             }
             lista = rendezett;
         }
+        //if (i<rendezett.Count)
+        //{
+        //    rendezett.Insert(i, elem);
+        //}
+        //else
+        //{
+        //    rendezett.Insert(rendezett.Count, elem);
+        //}
 
         // { 20, 21, 22, 23, 22, 23, 24, 23, 22, 23, 24, 25, 26, 27, 26 }
         // 90% valószínűséggel növekednek az elemek (10% valószínűséggel csökkennek)

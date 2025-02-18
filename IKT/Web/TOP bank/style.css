@@ -200,3 +200,20 @@ button#reszletek:hover {
         transform: scale(100%);
     }
 }
+
+main .card img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .card {
+    height: fit-content; /* 100% */
+    width: 250px;
+    /* background-color: red; */
+}

@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --gombszin: rgb(82, 174, 8);
 }
 
 body {
@@ -71,7 +74,7 @@ div#belepes {
     padding: 10px;
     height: 40px;
     box-sizing: border-box; /* a magasságba beleszámít a padding és a border is */
-    background-color: rgb(82, 174, 48);
+    background-color: var(--gombszin);
     display: flex;
     align-items: center;
     border-top-left-radius: 20px;
@@ -83,7 +86,7 @@ div#belepes {
     height: 40px;
     width: 40px;
     border: none;
-    background-color: rgb(82, 174, 48);
+    background-color: var(--gombszin);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
@@ -203,6 +206,10 @@ button#reszletek:hover {
 
 main .card img {
     width: 100%;
+    /* bf jf ja ba */
+    /* border-radius: 25px 25px 0 0;  */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 main {
@@ -213,7 +220,24 @@ main {
 }
 
 main .card {
-    height: fit-content; /* 100% */
+    height: 400px; /* fit-content 100% */
     width: 250px;
     /* background-color: red; */
+    text-align: center;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main .card a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--gombszin);
+    padding: 0.75em;
+    border-radius: 25px;
 }

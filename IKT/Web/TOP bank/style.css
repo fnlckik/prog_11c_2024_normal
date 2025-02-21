@@ -24,7 +24,7 @@ nav a {
 nav a span {
     vertical-align: middle;
     font-family: 'Pangolin';
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 nav {
@@ -38,10 +38,10 @@ div#kereses {
     border: 2px solid black;
     border-radius: 20px;
     justify-content: space-between;
+    align-items: center;
     display: flex;
     height: 40px;
     box-sizing: border-box;
-    padding: 0.5em;
     background-color: white;
 }
 
@@ -50,12 +50,26 @@ div#kereses {
     border: none;
     border-radius: 20px;
     float: right;
+    padding: 0.5em;
 }
 
 #kereses input {
+    /* background-color: red; */
+    flex-grow: 1;
+    padding: 0.5em;
     border: none;
     outline: none;
-    border-radius: 20px;   
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+#kereses input::placeholder {
+    color: black;
+}
+
+/* Amikor az input elem fókuszba kerül, a placeholderjét formázzuk így: */
+#kereses input:focus::placeholder {
+    color: gray;
 }
 
 div#belepes {
@@ -254,3 +268,30 @@ main .card a {
     padding: 0.75em;
     border-radius: 25px;
 }
+
+@font-face {
+    font-family: Itim;
+    src: url("fonts/Itim/Itim-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gabarito;
+    src: url("fonts/Gabarito/Gabarito-VariableFont_wght.ttf");
+}
+
+nav + div {
+    font-family: Itim;
+    text-transform: uppercase;
+    /* font-size: 1.25em; */
+    text-shadow: 0 0 2px var(--gombszin), 0 0 2px black;
+}
+
+nav + div button {
+    font-family: Gabarito;
+}
+
+p {
+    font-family: Gabarito;
+    font-weight: bold;
+}
+

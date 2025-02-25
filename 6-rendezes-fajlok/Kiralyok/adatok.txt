@@ -1,0 +1,17 @@
+II. József,1780,10
+I. Ferdinánd,1526,38
+Hunyadi Mátyás,1458,32
+I. Szent László,1077,18
+Mária Terézia,1740,40
+I. Nagy Lajos,1342,40
+Ferenc József,1848,68
+IV. Béla,1235,35
+V. László,1444,14
+II. Vak Béla,1131,10
+II. András,1205,30
+III. Károly,1711,29
+Könyves Kálmán,1095,21
+II. Lajos,1516,10
+I. Lipót,1657,48
+IV. Boldog Károly,1916,2
+Luxemburgi Zsigmond,1387,50

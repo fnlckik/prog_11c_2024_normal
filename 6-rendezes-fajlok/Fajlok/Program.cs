@@ -73,6 +73,7 @@ namespace Fajlok
         // Mj.: Én nem szeretem
         static void Beolvas1(List<string> nevek, List<int> primek)
         {
+            // Ha Program.cs mellett van a fájl: ../../primek.txt
             string[] sorok = File.ReadAllLines("primek.txt");
             foreach (string sor in sorok)
             {

@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 1em;
+        }
+        label {
+            border: 2px solid black;
+            padding: 0.5em;
+            border-radius: 0.25em;
+        }
+        label:hover {
+            background-color: lightblue;
+            cursor: pointer;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        label:has(input[type="radio"]) {
+            background-color: beige;
+        }
+    </style>
 </head>
 <body>
-    
+    <form>
+        <div>
+            <label>
+                <input type="checkbox" required>
+                Elolvastam a feltételeket!
+            </label>
+            <label>
+                <input type="checkbox">
+                Elfogadom a feltételeket!
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="szin" >
+                Fekete
+            </label>
+            <label>
+                <input type="radio" name="szin">
+                Barna
+            </label>
+            <label>
+                <input type="radio" name="szin">
+                Fehér
+            </label>
+        </div>
+        <br>
+        <span>Cípőméretek</span>
+        <input type="number" min="35" max="47" value="39">
+
+        <p>Márka</p>
+        <select>
+            <option>Adidas</option>
+            <option>Nike</option>
+            <option>Reebok</option>
+        </select>
+        <button>Küldés!</button>
+    </form>
 </body>
 </html>

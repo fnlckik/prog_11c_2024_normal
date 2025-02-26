@@ -13,6 +13,47 @@ namespace Kiralyok
             List<int> kezdev = new List<int>();
             List<int> idosav = new List<int>();
             Beolvas(nevek, kezdev, idosav);
+            Rendezes(nevek, kezdev, idosav);
+            Kiir(nevek, kezdev, idosav);
+        }
+
+        static void Kiir(List<string> nevek, List<int> kezdev, List<int> idosav)
+        {
+            for (int i = 0; i < nevek.Count; i++)
+            {
+                Console.WriteLine($"{nevek[i]} {kezdev[i]} {idosav[i]}");
+            }
+        }
+
+        static void Rendezes(List<string> nevek, List<int> kezdev, List<int> idosav)
+        {
+            for (int i = 0; i < idosav.Count; i++)
+            {
+                // Ki kerül az "i"-dik helyre? (Ezt jelöli a "k".)
+                int k = i; // maxi = i
+                for (int j = k; j < idosav.Count; j++)
+                {
+                    // Mikor akarjuk, hogy "k"-adik helyre kerüljön a "j"?
+                    // 1. Tovább uralkodott a "j"-edik, mint a "k"-adik.
+                    // 2. Ugyanaddig uralkodtak ÉS a "j"-edik királyt korábban koronázták.
+                    if (idosav[j] > idosav[k] || 
+                        idosav[j] == idosav[k] && kezdev[j] < kezdev[k])
+                    {
+                        k = j;
+                    }
+                }
+                Csere(idosav, i, k);
+                Csere(kezdev, i, k);
+                Csere(nevek, i, k);
+            }
+        }
+
+        static void Csere<T>(List<T> lista, int i, int j)
+        {
+            (lista[i], lista[j]) = (lista[j], lista[i]);
+            //T seged = lista[i];
+            //lista[i] = lista[j];
+            //lista[j] = seged;
         }
 
         static void Beolvas(List<string> nevek, List<int> kezdev, List<int> idosav)

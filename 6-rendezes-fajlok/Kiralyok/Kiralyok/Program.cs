@@ -19,10 +19,14 @@ namespace Kiralyok
 
         static void Kiir(List<string> nevek, List<int> kezdev, List<int> idosav)
         {
+            StreamWriter writer = new StreamWriter("uralkodok.txt");
             for (int i = 0; i < nevek.Count; i++)
             {
-                Console.WriteLine($"{nevek[i]} {kezdev[i]} {idosav[i]}");
+                int vegev = kezdev[i] + idosav[i];
+                writer.WriteLine($"{nevek[i]} ({kezdev[i]}-{vegev})");
             }
+            writer.Close();
+            Console.WriteLine("Sikeres fájlba írás! (uralkodok.txt)");
         }
 
         static void Rendezes(List<string> nevek, List<int> kezdev, List<int> idosav)

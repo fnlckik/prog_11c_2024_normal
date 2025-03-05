@@ -40,6 +40,16 @@ namespace Karsor
                 writer.WriteLine($"P({x}; {y})");
             }
             writer.Close();
+            // P(29; 23)
+
+            double d = Tavolsag(0, 0, 29, 23);
+            Console.WriteLine("Távolság: " + Math.Round(d, 0));
+        }
+
+        static double Tavolsag(double a1, double a2, double b1, double b2)
+        {
+            double negyzet = (b1 - a1) * (b1 - a1) + (b2 - a2) * (b2 - a2);
+            return Math.Sqrt(negyzet);
         }
 
         static string Beolvas()

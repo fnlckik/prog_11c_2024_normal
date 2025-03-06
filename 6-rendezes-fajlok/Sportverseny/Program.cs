@@ -14,6 +14,14 @@ namespace Sportverseny
             Beolvas(nevek, orszagok, pontok);
             Rendez(nevek, orszagok, pontok);
             Kiir(nevek, orszagok, pontok);
+            // "ALMA".ToLower()
+
+            /*
+                s1.CompareTo(s2):
+                    -1: ha s1 < s2
+                     1: ha s1 > s2
+                     0: ha s1 = s2
+            */
         }
 
         static void Kiir(List<string> nevek, List<string> orszagok, List<int> pontok)
@@ -34,7 +42,11 @@ namespace Sportverseny
             {
                 for (int j = 0; j < pontok.Count - i - 1; j++)
                 {
-                    if (pontok[j] < pontok[j+1])
+                    // Operator precedence: az "és" művelet erősebb a "vagy"-nál
+                    // Elhagyva innen a zárójeleket, ugyanazt kapjuk:
+                    // A vagy (B és C) vagy (D és E)
+                    if (pontok[j] < pontok[j+1] || 
+                        pontok[j] == pontok[j+1] && nevek[j].CompareTo(nevek[j+1]) == 1)
                     {
                         Csere(pontok, j, j + 1);
                         Csere(nevek, j, j + 1);

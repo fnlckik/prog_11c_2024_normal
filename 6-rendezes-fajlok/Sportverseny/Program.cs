@@ -27,9 +27,27 @@ namespace Sportverseny
         static void Kiir(List<string> nevek, List<string> orszagok, List<int> pontok)
         {
             StreamWriter sw = new StreamWriter("rendezett.txt");
-            for (int i = 0; i < nevek.Count; i++)
+            int holtverseny = 1; // Hanyas holtverseny van jelenleg?
+            int hely = 1; // Aktuális helyezés hanyadik
+            sw.WriteLine($"1. {nevek[0]} ({orszagok[0]}) - {pontok[0]}");
+            for (int i = 1; i < nevek.Count; i++)
             {
-                sw.WriteLine($"{nevek[i]} ({orszagok[i]}) - {pontok[i]}");
+                if (pontok[i] == pontok[i-1])
+                {
+                    // Holtverseny esetén:
+                    // - Számoljuk, hogy hányas holtverseny van
+                    // - A helyezés nem változik
+                    holtverseny++;
+                }
+                else
+                {
+                    // Új pontszám esetén:
+                    // - A helyezést növeljük az előző holtverseny mennyiségével
+                    // - Visszaállunk 1-es holtversenyre (önmagával van holtversenyben)
+                    hely += holtverseny;
+                    holtverseny = 1;
+                }
+                sw.WriteLine($"{hely}. {nevek[i]} ({orszagok[i]}) - {pontok[i]}");
             }
             sw.Close();
             Console.WriteLine("Fájlba írás megtörtént!");

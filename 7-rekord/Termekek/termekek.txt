@@ -1,0 +1,15 @@
+Alma;350;1
+Tej;450;1
+Hátizsák;3999;0
+Kenyér;600;1
+Tojás;900;1
+Ketchup;799;1
+Fűrész;5790;0
+Kolbász;1800;1
+Egérpad;3000;0
+Liszt;400;1
+Tejföl;500;1
+Mosogatószer;800;0
+Jegyzettömb;1000;0
+WC papír;1500;0
+Kávé;2500;1

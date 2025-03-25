@@ -31,6 +31,33 @@ namespace Epitmenyado
             List<Lakas> lakasok = new List<Lakas>();
             Dictionary<char, int> adok = new Dictionary<char, int>();
             Beolvas(lakasok, adok);
+            F2(lakasok);
+            F3(lakasok);
+        }
+
+        static void F3(List<Lakas> lakasok)
+        {
+            // Kiválogatás
+            Console.Write("3. feladat. Egy tulajdonos adószáma: ");
+            string adoszam = Console.ReadLine();
+            int db = 0;
+            for (int i = 0; i < lakasok.Count; i++)
+            {
+                if (lakasok[i].adoszam == adoszam)
+                {
+                    db++;
+                    Console.WriteLine($"{lakasok[i].utca} utca {lakasok[i].hsz}");
+                }
+            }
+            if (db == 0)
+            {
+                Console.WriteLine("Nem szerepel az adatállományban.");
+            }
+        }
+
+        static void F2(List<Lakas> lakasok)
+        {
+            Console.WriteLine($"2. feladat. A mintában {lakasok.Count} telek szerepel.");
         }
 
         static void Beolvas(List<Lakas> lakasok, Dictionary<char, int> adok)

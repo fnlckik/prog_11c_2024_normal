@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Epitmenyado
 {
@@ -14,12 +15,12 @@ namespace Epitmenyado
             public int terulet;
         }
 
-        struct Savszorzo
-        {
-            public int a;
-            public int b;
-            public int c;
-        }
+        //struct Savszorzo
+        //{
+        //    public int a;
+        //    public int b;
+        //    public int c;
+        //}
 
         // int a, b, c
         // List<int> (3 elemű)
@@ -28,72 +29,31 @@ namespace Epitmenyado
         static void Main(string[] args)
         {
             List<Lakas> lakasok = new List<Lakas>();
-            Beolvas(lakasok);
-
-            Lakas x = new Lakas { sav = 'A', terulet = 180 };
-
-            int ado;
-            // 1. verzio
-            //int a = 800;
-            //int b = 600;
-            //int c = 100;
-            //if (x.sav == 'A')
-            //{
-            //    ado = a * x.terulet;
-            //}
-            //else if (x.sav == 'B')
-            //{
-            //    ado = b * x.terulet;
-            //}
-            //else
-            //{
-            //    ado = c * x.terulet;
-            //}
-
-            // 2. verzio
-            //List<int> adok = new List<int> { 800, 600, 100 };
-            //if (x.sav == 'A')
-            //{
-            //    ado = adok[0] * x.terulet;
-            //}
-            //else if (x.sav == 'B')
-            //{
-            //    ado = adok[1] * x.terulet;
-            //}
-            //else
-            //{
-            //    ado = adok[2] * x.terulet;
-            //}
-
-            // 3. verzio
-            //Savszorzo savszorzo = new Savszorzo { a = 800, b = 600, c = 100 };
-            //if (x.sav == 'A')
-            //{
-            //    ado = savszorzo.a * x.terulet;
-            //}
-            //else if (x.sav == 'B')
-            //{
-            //    ado = savszorzo.b * x.terulet;
-            //}
-            //else
-            //{
-            //    ado = savszorzo.c * x.terulet;
-            //}
-
-            // 4. verzió
-            Dictionary<char, int> adok = new Dictionary<char, int>
-            {
-                { 'A', 800 },
-                { 'B', 600 },
-                { 'C', 100 }
-            };
-            ado = adok[x.sav] * x.terulet;
-            Console.WriteLine(ado);
+            Dictionary<char, int> adok = new Dictionary<char, int>();
+            Beolvas(lakasok, adok);
         }
 
-        static void Beolvas(List<Lakas> lakasok)
+        static void Beolvas(List<Lakas> lakasok, Dictionary<char, int> adok)
         {
-            
+            StreamReader reader = new StreamReader("utca.txt");
+            string[] adatok = reader.ReadLine().Split(); // { "800", "600", "100" } 
+            adok.Add('A', int.Parse(adatok[0]));
+            adok.Add('B', int.Parse(adatok[1]));
+            adok.Add('C', int.Parse(adatok[2]));
+            while (!reader.EndOfStream)
+            {
+                string[] sor = reader.ReadLine().Split();
+                Lakas ujlakas = new Lakas
+                {
+                    adoszam = sor[0],
+                    utca = sor[1],
+                    hsz = sor[2],
+                    sav = char.Parse(sor[3]), // "C" => 'C'
+                    terulet = int.Parse(sor[4])
+                };
+                lakasok.Add(ujlakas);
+            }
+            reader.Close();
         }
     }
 }

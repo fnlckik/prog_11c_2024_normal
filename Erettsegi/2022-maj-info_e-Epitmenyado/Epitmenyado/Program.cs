@@ -33,7 +33,22 @@ namespace Epitmenyado
             Beolvas(lakasok, adok);
             F2(lakasok);
             //F3(lakasok);
-            Console.WriteLine(Ado('C', 60, adok));
+            //Console.WriteLine(Ado('C', 60, adok));
+            F5(lakasok);
+        }
+
+        // Meg tudjuk-e írni elágazás nélkül?
+        static void F5(List<Lakas> lakasok)
+        {
+            int adb = 0;
+            foreach (Lakas lakas in lakasok)
+            {
+                if (lakas.sav == 'A')
+                {
+                    adb++;
+                }
+            }
+            Console.WriteLine(adb);
         }
 
         static int Ado(char adosav, int alapterulet, Dictionary<char, int> adok)

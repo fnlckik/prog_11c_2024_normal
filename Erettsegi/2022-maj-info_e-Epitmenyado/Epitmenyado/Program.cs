@@ -32,7 +32,28 @@ namespace Epitmenyado
             Dictionary<char, int> adok = new Dictionary<char, int>();
             Beolvas(lakasok, adok);
             F2(lakasok);
-            F3(lakasok);
+            //F3(lakasok);
+            Console.WriteLine(Ado('C', 60, adok));
+        }
+
+        static int Ado(char adosav, int alapterulet, Dictionary<char, int> adok)
+        {
+            //int ado;
+            //if (adosav == 'A')
+            //{
+            //    ado = alapterulet * adok['A'];
+            //}
+            //else if (adosav == 'B')
+            //{
+            //    ado = alapterulet * adok['B'];
+            //}
+            //else
+            //{
+            //    ado = alapterulet * adok['C'];
+            //}
+            int ado = alapterulet * adok[adosav];
+            if (ado < 10000) ado = 0;
+            return ado;
         }
 
         static void F3(List<Lakas> lakasok)

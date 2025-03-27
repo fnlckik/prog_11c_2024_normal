@@ -6,11 +6,18 @@ namespace Epitmenyado
 {
     internal class Program
     {
+        //struct Lakcim
+        //{
+        //    public string utca;
+        //    public string hsz;
+        //}
+
         struct Lakas
         {
             public string adoszam; // A lakás tulajdonosának adószáma
             public string utca;
             public string hsz;
+            //public Lakcim lakcim;
             public char sav;
             public int terulet;
         }
@@ -34,21 +41,63 @@ namespace Epitmenyado
             F2(lakasok);
             //F3(lakasok);
             //Console.WriteLine(Ado('C', 60, adok));
-            F5(lakasok);
+            F5(lakasok, adok);
+            F6(lakasok);
+        }
+
+        static void F6(List<Lakas> lakasok)
+        {
+            HashSet<string> utcak = new HashSet<string>();
+            // Kiválogatjuk (i, i+1) ha: utca egyezik, sav nem
         }
 
         // Meg tudjuk-e írni elágazás nélkül?
-        static void F5(List<Lakas> lakasok)
+        static void F5(List<Lakas> lakasok, Dictionary<char, int> adok)
         {
-            int adb = 0;
+            //int adb = 0, bdb = 0, cdb = 0;
+            //int aosszeg = 0, bosszeg = 0, cosszeg = 0;
+            //foreach (Lakas lakas in lakasok)
+            //{
+            //    if (lakas.sav == 'A')
+            //    {
+            //        adb++;
+            //        aosszeg += Ado(lakas.sav, lakas.terulet, adok);
+            //    }
+            //    else if (lakas.sav == 'B')
+            //    {
+            //        bdb++;
+            //        bosszeg += Ado(lakas.sav, lakas.terulet, adok);
+            //    }
+            //    else
+            //    {
+            //        cdb++;
+            //        cosszeg += Ado(lakas.sav, lakas.terulet, adok);
+            //    }
+            //}
+
+            Dictionary<char, int> darabok = new Dictionary<char, int>();
+            darabok['A'] = 0; // darabok.Add('A', 0);
+            darabok['B'] = 0;
+            darabok['C'] = 0;
+            Dictionary<char, int> osszegek = new Dictionary<char, int>
+            {
+                { 'A', 0 }, { 'B', 0 }, { 'C', 0 }
+            };
             foreach (Lakas lakas in lakasok)
             {
-                if (lakas.sav == 'A')
-                {
-                    adb++;
-                }
+                char sav = lakas.sav; // 'C'
+                darabok[sav]++;
+                osszegek[sav] += Ado(lakas.sav, lakas.terulet, adok);
+                //darabok[lakas.sav]++;
             }
-            Console.WriteLine(adb);
+            Console.WriteLine("5. feladat");
+            //Console.WriteLine($"A sávba {darabok['A']} telek esik, az adó {osszegek['A']} Ft.");
+            //Console.WriteLine($"B sávba {darabok['B']} telek esik, az adó {osszegek['B']} Ft.");
+            //Console.WriteLine($"C sávba {darabok['C']} telek esik, az adó {osszegek['C']} Ft.");
+            foreach (char sav in darabok.Keys)
+            {
+                Console.WriteLine($"{sav} sávba {darabok[sav]} telek esik, az adó {osszegek[sav]} Ft.");
+            }
         }
 
         static int Ado(char adosav, int alapterulet, Dictionary<char, int> adok)

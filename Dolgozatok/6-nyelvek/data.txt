@@ -1,0 +1,10 @@
+8062
+Orosz#150
+Német#110
+Portugál#157
+Francia#90
+Hindi#195
+Kínai#1053
+Arab#140
+Spanyol#235
+Angol#650

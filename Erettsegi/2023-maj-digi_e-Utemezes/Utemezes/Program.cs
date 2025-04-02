@@ -25,6 +25,176 @@ namespace Utemezes
             //F3Fanni(taborok);
             //F3Nikol(taborok);
             F3(taborok);
+            //F4Peti(taborok);
+            F4(taborok);
+
+            // Első nap: 06. 16.
+            //Console.WriteLine(Sorszam(6, 20)); // 5 (20 - 16 + 1)
+            //Console.WriteLine(Sorszam(7, 5)); // június: 15 (30 - 16 + 1) + július: 5 => 20
+            //Console.WriteLine(Sorszam(8, 12)); // június: 15 + július: 31 + aug: 12 => 58
+
+            //Console.WriteLine(Sorszam(taborok[taborok.Count-1].kezdoHonap, taborok[taborok.Count-1].kezdoNap));
+
+            //Console.WriteLine(SorszamPeti(6, 20)); // 5 (20 - 16 + 1)
+            //Console.WriteLine(SorszamPeti(7, 5)); // június: 15 (30 - 16 + 1) + július: 5 => 20
+            //Console.WriteLine(SorszamPeti(8, 12)); // június: 15 + július: 31 + aug: 12 => 58
+            //F6(taborok);
+            F6Nikol(taborok);
+        }
+
+        static void F6Nikol(List<Tabor> taborok)
+        {
+            Console.WriteLine("\n6. feladat");
+            Console.Write("hó: ");
+            int ho = int.Parse(Console.ReadLine());
+            Console.Write("nap: ");
+            int nap = int.Parse(Console.ReadLine());
+            int db = 0;
+            for (int i = 0; i < taborok.Count; i++)
+            {
+                // 1. Már elkezdődött a tábor
+                // 2. Még nem végződött a tábor
+                Tabor akt = taborok[i];
+                if ((ho > akt.kezdoHonap || (ho == akt.kezdoHonap && nap >= akt.kezdoNap)) &&
+                    (ho < akt.vegHonap || (ho == akt.vegHonap && nap <= akt.vegNap)))
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"{db} tabor zajlik ilyenkor");
+        }
+
+        static void F6(List<Tabor> taborok)
+        {
+            Console.WriteLine("6. feladat");
+            Console.Write("hó: ");
+            int honap = int.Parse(Console.ReadLine());
+            Console.Write("nap: ");
+            int nap = int.Parse(Console.ReadLine());
+            int sorszam = Sorszam(honap, nap); // 08.01. => 47. nap
+
+            int db = 0;
+            foreach (Tabor tabor in taborok)
+            {
+                int kezdes = Sorszam(tabor.kezdoHonap, tabor.kezdoNap);
+                int vegzes = Sorszam(tabor.vegHonap, tabor.vegNap);
+                if (kezdes <= sorszam && sorszam <= vegzes)
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine($"Ekkor éppen {db} tábor tart.");
+        }
+
+        struct Nyariszunet
+        {
+            public int honap;
+            public int nap;
+        }
+
+        static int SorszamPeti(int honap, int nap)
+        {
+            List<Nyariszunet> napok = new List<Nyariszunet>();
+            for (int i = 6; i <= 8; i++)
+            {
+                if (i == 7 || i == 8)
+                {
+                    for (int j = 1; j <= 31; j++)
+                    {
+                        Nyariszunet ujnap = new Nyariszunet
+                        {
+                            honap = i,
+                            nap = j
+                        };
+                        napok.Add(ujnap);
+                    }
+                }
+                else
+                {
+                    for (int j = 16; j <= 30; j++)
+                    {
+                        Nyariszunet ujnap = new Nyariszunet
+                        {
+                            honap = i,
+                            nap = j
+                        };
+                        napok.Add(ujnap);
+                    }
+                }
+            }
+
+            //foreach (Nyariszunet elem in napok)
+            //{
+            //    Console.WriteLine($"{elem.honap} {elem.nap}");
+            //}
+
+            int napi = 0;
+            while (napi < napok.Count && napok[napi].nap != nap || napok[napi].honap != honap)
+            {
+                napi++;
+            }
+            return napi + 1;
+        }
+
+        // Tegyük fel, hogy honap eleme { 6, 7, 8 }
+        static int Sorszam(int honap, int nap)
+        {
+            if (honap == 6)
+            {
+                return nap - 15; // Június első 15 napja még nem volt szünet
+            }
+            else if (honap == 7)
+            {
+                return 15 + nap;
+            }
+            else
+            {
+                return 46 + nap;
+            }
+        }
+
+        static void F4(List<Tabor> taborok)
+        {
+            Console.WriteLine("\n4. feladat");
+            Console.WriteLine("Legnépszerűbbek:");
+            int maxe = taborok[0].diakok.Length;
+            foreach (Tabor tabor in taborok)
+            {
+                if (tabor.diakok.Length > maxe)
+                {
+                    maxe = tabor.diakok.Length;
+                }
+            }
+            foreach (Tabor tabor in taborok)
+            {
+                if (tabor.diakok.Length == maxe)
+                {
+                    Console.WriteLine($"{tabor.kezdoHonap} {tabor.kezdoNap} {tabor.tema}");
+                }
+            }
+        }
+
+        static void F4Peti(List<Tabor> taborok)
+        {
+            Console.WriteLine("\n4. feladat");
+            Console.WriteLine("Legnépszerűbbek:");
+            int maxi = 0;
+            for (int i = 0; i < taborok.Count; i++)
+            {
+                if (taborok[i].diakok.Length > taborok[maxi].diakok.Length)
+                {
+                    maxi = i;
+                }
+            }
+            //List<int> Legnepszerubbeki = new List<int>();
+            for (int i = 0; i < taborok.Count; i++)
+            {
+                if (taborok[maxi].diakok.Length == taborok[i].diakok.Length)
+                {
+                    //Legnepszerubbeki.Add(i);
+                    Console.WriteLine($"{taborok[i].kezdoHonap} {taborok[i].kezdoNap} {taborok[i].tema}");
+                }
+            }
         }
 
         static void F3(List<Tabor> taborok)

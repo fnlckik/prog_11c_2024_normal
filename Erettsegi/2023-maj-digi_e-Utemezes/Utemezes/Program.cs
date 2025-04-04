@@ -39,7 +39,79 @@ namespace Utemezes
             //Console.WriteLine(SorszamPeti(7, 5)); // június: 15 (30 - 16 + 1) + július: 5 => 20
             //Console.WriteLine(SorszamPeti(8, 12)); // június: 15 + július: 31 + aug: 12 => 58
             //F6(taborok);
-            F6Nikol(taborok);
+            //F6Nikol(taborok);
+            F7(taborok);
+        }
+
+        static void F7(List<Tabor> taborok)
+        {
+            Console.WriteLine("7. feladat");
+            Console.Write("Adja meg egy tanuló betűjelét: ");
+            char tanuloKod = char.Parse(Console.ReadLine());
+
+            List<Tabor> erdekesek = new List<Tabor>();
+            Kivalogat(tanuloKod, taborok, erdekesek);
+            Rendez(erdekesek); // Kezdő időpont szerint
+            Kiir(erdekesek);
+            UtkoznekE(erdekesek);
+        }
+
+        static void UtkoznekE(List<Tabor> erdekesek)
+        {
+            
+        }
+
+        static void Kivalogat(char tanuloKod, List<Tabor> taborok, List<Tabor> erdekesek)
+        {
+            foreach (Tabor t in taborok)
+            {
+                if (JelentkezettE(tanuloKod, t.diakok)) // 'L', "FJLOP"
+                {
+                    erdekesek.Add(t);
+                }
+            }
+        }
+
+        static void Kiir(List<Tabor> erdekesek)
+        {
+            StreamWriter sw = new StreamWriter("egytanulo.txt");
+            foreach (Tabor t in erdekesek)
+            {
+                sw.WriteLine($"{t.kezdoHonap}.{t.kezdoNap}-{t.vegHonap}.{t.vegNap}. {t.tema}");
+            }
+            sw.Close();
+        }
+
+        static void Rendez(List<Tabor> erdekesek)
+        {
+            for (int i = 0; i < erdekesek.Count; i++)
+            {
+                int k = i;
+                for (int j = k+1; j < erdekesek.Count; j++)
+                {
+                    // x[j] < x[k] --> találtunk kisebb elemet
+                    // x[j].kezdes < x[k].kezdes 
+                    Tabor min = erdekesek[k];
+                    Tabor akt = erdekesek[j];
+                    int sorMin = Sorszam(min.kezdoHonap, min.kezdoNap);
+                    int sorAkt = Sorszam(akt.kezdoHonap, akt.kezdoNap);
+                    if (sorAkt < sorMin)
+                    {
+                        k = j;
+                    }
+                }
+                (erdekesek[i], erdekesek[k]) = (erdekesek[k], erdekesek[i]);
+            }
+        }
+
+        static bool JelentkezettE(char tanuloKod, string kodok)
+        {
+            int i = 0;
+            while (i < kodok.Length && !(kodok[i] == tanuloKod))
+            {
+                i++;
+            }
+            return i < kodok.Length;
         }
 
         static void F6Nikol(List<Tabor> taborok)

@@ -53,12 +53,34 @@ namespace Utemezes
             Kivalogat(tanuloKod, taborok, erdekesek);
             Rendez(erdekesek); // Kezdő időpont szerint
             Kiir(erdekesek);
-            UtkoznekE(erdekesek);
+
+            bool mehetE = ElmehetE(erdekesek);
+            // Kiírás
+            if (mehetE)
+            {
+                Console.WriteLine("Mehet az összes táborba.");
+            }
+            else
+            {
+                Console.WriteLine("Nem mehet el mindegyik táborba.");
+            }
         }
 
-        static void UtkoznekE(List<Tabor> erdekesek)
+        static bool ElmehetE(List<Tabor> erdekesek)
         {
-            
+            bool mehetE = true;
+            for (int i = 0; i < erdekesek.Count - 1; i++)
+            {
+                int aktH = erdekesek[i].vegHonap;
+                int aktN = erdekesek[i].vegNap;
+                int kovH = erdekesek[i + 1].kezdoHonap;
+                int kovN = erdekesek[i + 1].kezdoNap;
+                if (aktH == kovH && aktN > kovN || aktH > kovH)
+                {
+                    mehetE = false;
+                }
+            }
+            return mehetE;
         }
 
         static void Kivalogat(char tanuloKod, List<Tabor> taborok, List<Tabor> erdekesek)

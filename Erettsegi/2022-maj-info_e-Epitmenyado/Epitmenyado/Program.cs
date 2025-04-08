@@ -18,7 +18,7 @@ namespace Epitmenyado
             public string utca;
             public string hsz;
             //public Lakcim lakcim;
-            public char sav;
+            public char sav; // 'A', 'B', 'C'
             public int terulet;
         }
 
@@ -49,6 +49,21 @@ namespace Epitmenyado
         {
             HashSet<string> utcak = new HashSet<string>();
             // Kiválogatjuk (i, i+1) ha: utca egyezik, sav nem
+            for (int i = 0; i < lakasok.Count - 1; i++)
+            {
+                Lakas akt = lakasok[i];
+                Lakas kov = lakasok[i + 1];
+                if (akt.utca == kov.utca && akt.sav != kov.sav)
+                {
+                    utcak.Add(akt.utca);
+                }
+            }
+
+            Console.WriteLine("6. feladat. A több sávba sorolt utcák: ");
+            foreach (string utca in utcak)
+            {
+                Console.WriteLine(utca);
+            }
         }
 
         // Meg tudjuk-e írni elágazás nélkül?

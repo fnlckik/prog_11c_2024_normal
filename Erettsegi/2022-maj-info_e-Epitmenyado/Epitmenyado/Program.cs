@@ -43,6 +43,31 @@ namespace Epitmenyado
             //Console.WriteLine(Ado('C', 60, adok));
             F5(lakasok, adok);
             F6(lakasok);
+            F7(lakasok, adok);
+        }
+
+        static void F7(List<Lakas> lakasok, Dictionary<char, int> adok)
+        {
+            Dictionary<string, int> fizetendok = new Dictionary<string, int>();
+            foreach (Lakas lakas in lakasok)
+            {
+                int ado = Ado(lakas.sav, lakas.terulet, adok);
+                if (!fizetendok.ContainsKey(lakas.adoszam))
+                {
+                    fizetendok.Add(lakas.adoszam, ado);
+                }
+                else
+                {
+                    fizetendok[lakas.adoszam] += ado;
+                }
+            }
+
+            StreamWriter sw = new StreamWriter("fizetendo.txt");
+            foreach (string adoszam in fizetendok.Keys)
+            {
+                sw.WriteLine($"{adoszam} {fizetendok[adoszam]}");
+            }
+            sw.Close();
         }
 
         static void F6(List<Lakas> lakasok)

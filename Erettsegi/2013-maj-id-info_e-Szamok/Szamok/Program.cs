@@ -23,6 +23,105 @@ namespace Szamok
             F2(kerdesek);
             F3(kerdesek);
             F4(kerdesek);
+            F5(kerdesek);
+            //F6Csunya(kerdesek);
+            F6(kerdesek);
+            F7(kerdesek);
+        }
+
+        static void F7(List<Kerdes> kerdesek)
+        {
+            
+        }
+
+        static List<Kerdes> KivalogatTemakorKerdesei(List<Kerdes> kerdesek, string temakor)
+        {
+            List<Kerdes> eredmeny = new List<Kerdes>();
+            foreach (Kerdes kerdes in kerdesek)
+            {
+                if (kerdes.tema == temakor)
+                {
+                    eredmeny.Add(kerdes);
+                }
+            }
+            return eredmeny;
+        }
+
+        static void Kerdezes(Kerdes kerdes)
+        {
+            Console.Write(kerdes.szoveg + " ");
+            int valasz = int.Parse(Console.ReadLine());
+            if (kerdes.valasz == valasz)
+            {
+                Console.WriteLine($"A valasz {kerdes.pontszam} pontot er.");
+            }
+            else
+            {
+                Console.WriteLine("A valasz 0 pontot er.");
+                Console.WriteLine($"A helyes valasz: {kerdes.valasz}");
+            }
+        }
+        
+        static Kerdes SorsolRandomKerdes(List<Kerdes> valogatottak)
+        {
+            Random r = new Random();
+            int i = r.Next(valogatottak.Count);
+            return valogatottak[i];
+        }
+
+        static void F6(List<Kerdes> kerdesek)
+        {
+            Console.WriteLine("\n6. feladat");
+            Console.Write("Milyen temakorbol szeretne kerdest kapni? ");
+            string temakor = Console.ReadLine();
+
+            List<Kerdes> valogatottak = KivalogatTemakorKerdesei(kerdesek, temakor);
+            Kerdes kerdes = SorsolRandomKerdes(valogatottak);
+            Kerdezes(kerdes);
+        }
+
+        static void F6Csunya(List<Kerdes> kerdesek)
+        {
+            Console.WriteLine("\n6. feladat");
+            Console.Write("Milyen temakorbol szeretne kerdest kapni? ");
+            string temakor = Console.ReadLine();
+
+            Kerdes kerdes;
+            Random r = new Random();
+            do
+            {
+                int i = r.Next(kerdesek.Count); // 0-tól 48-ig?
+                kerdes = kerdesek[i];
+            } while (kerdes.tema != temakor);
+
+            Console.Write(kerdes.szoveg + " ");
+            int valasz = int.Parse(Console.ReadLine());
+
+            if (kerdes.valasz == valasz)
+            {
+                Console.WriteLine($"A valasz {kerdes.pontszam} pontot er.");
+            }
+            else
+            {
+                Console.WriteLine("A valasz 0 pontot er.");
+                Console.WriteLine($"A helyes valasz: {kerdes.valasz}");
+            }
+        }
+
+        static void F5(List<Kerdes> kerdesek)
+        {
+            HashSet<string> temakorok = new HashSet<string>();
+            foreach (Kerdes kerdes in kerdesek)
+            {
+                temakorok.Add(kerdes.tema);
+            }
+
+            Console.WriteLine("\n5. feladat");
+            Console.WriteLine("Témakörök: ");
+            foreach (string temakor in temakorok)
+            {
+                Console.WriteLine(temakor);
+            }
         }
 
         static void F4(List<Kerdes> kerdesek)

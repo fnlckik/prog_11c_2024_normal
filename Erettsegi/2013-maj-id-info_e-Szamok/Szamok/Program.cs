@@ -30,9 +30,27 @@ namespace Szamok
             F7Keveres(kerdesek);
         }
 
+        // Shuffle algo
         static void F7Keveres(List<Kerdes> kerdesek)
         {
-            
+            Random r = new Random();
+            for (int i = 0; i < kerdesek.Count; i++)
+            {
+                // Választunk egy random indexet i-től n-1-ig!
+                int k = r.Next(i, kerdesek.Count);
+                (kerdesek[i], kerdesek[k]) = (kerdesek[k], kerdesek[i]);
+            }
+
+            StreamWriter sw = new StreamWriter("tesztfel-kever.txt");
+            int s = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                Kerdes k = kerdesek[i];
+                s += k.pontszam;
+                sw.WriteLine($"{k.pontszam} {k.valasz} {k.szoveg}");
+            }
+            sw.WriteLine($"A feladatsorra osszesen {s} pont adhato.");
+            sw.Close();
         }
 
         static void F7(List<Kerdes> kerdesek)

@@ -20,6 +20,16 @@ namespace Sorozatok
             List<Sorozat> sorozatok = new List<Sorozat>();
             Beolvas(sorozatok);
             F2(sorozatok);
+            Console.WriteLine(Hetnapja(2025, 4, 11));
+        }
+
+        static string Hetnapja(int ev, int ho, int nap)
+        {
+            string[] napok = { "v", "h", "k", "sze", "cs", "p", "szo" };
+            int[] honapok = { 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 };
+            if (ho < 3) ev--;
+            int i = (ev + ev / 4 - ev / 100 + ev / 400 + honapok[ho-1] + nap) % 7;
+            return napok[i];
         }
 
         static void F2(List<Sorozat> sorozatok)

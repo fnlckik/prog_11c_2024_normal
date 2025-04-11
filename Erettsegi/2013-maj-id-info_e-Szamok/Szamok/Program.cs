@@ -25,13 +25,32 @@ namespace Szamok
             F4(kerdesek);
             F5(kerdesek);
             //F6Csunya(kerdesek);
-            F6(kerdesek);
-            F7(kerdesek);
+            //F6(kerdesek);
+            //F7(kerdesek);
+            F7Keveres(kerdesek);
+        }
+
+        static void F7Keveres(List<Kerdes> kerdesek)
+        {
+            
         }
 
         static void F7(List<Kerdes> kerdesek)
         {
-            
+            StreamWriter sw = new StreamWriter("tesztfel.txt");
+            List<Kerdes> masolat = new List<Kerdes>(kerdesek);
+            Random r = new Random();
+            int s = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                int index = r.Next(masolat.Count);
+                Kerdes k = masolat[index];
+                masolat.Remove(k);
+                s += k.pontszam;
+                sw.WriteLine($"{k.pontszam} {k.valasz} {k.szoveg}");
+            }
+            sw.WriteLine($"A feladatsorra osszesen {s} pont adhato.");
+            sw.Close();
         }
 
         static List<Kerdes> KivalogatTemakorKerdesei(List<Kerdes> kerdesek, string temakor)

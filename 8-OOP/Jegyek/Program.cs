@@ -1,27 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO.Ports;
 
 namespace Jegyek
 {
-    // Osztály: egységbe zárja az objektumok
-    // 1. Adattagjait (field) - mező
-    // 2. Műveleteit (method) - metódus
-    class Diak
-    {
-        public string nev;
-        public int kor;
-        public double hangulat; // 0.00-1.00 százalékos érték
-
-        public Diak() { }
-
-        public Diak(string nev, int kor, double hangulat)
-        {
-
-        }
-    }
-
     internal class Program
     {
         struct Tanulo
@@ -44,6 +25,15 @@ namespace Jegyek
             adel.hangulat = 0.83;
 
             Diak bela = new Diak("Béla", 15, 0.42);
+            Diak csaba = new Diak("Csaba", 18, 0.15);
+
+            //Console.WriteLine($"Diákok: {adel.nev} {bela.nev} {csaba.nev}");
+
+            // Bemutatkozás
+            // Bemutatkozas(adel) ~ adel.Bemutatkozas()
+            Console.WriteLine(adel);
+            Console.WriteLine(bela);
+            Console.WriteLine(csaba);
         }
 
         static string Bemutatkozas(Tanulo t)

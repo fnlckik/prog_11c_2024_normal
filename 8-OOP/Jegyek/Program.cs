@@ -19,21 +19,40 @@ namespace Jegyek
 
             // Példányosítás: létrejön az osztályból egy konkrét objektum példány
             // Konstruktor: az a függvény, ami példányosítás során lefut
-            Diak adel = new Diak();
-            adel.nev = "Adél";
-            adel.kor = 17;
-            adel.hangulat = 0.83;
+            //Diak adel = new Diak();
+            //adel.nev = "Adél";
+            //adel.kor = 17;
+            //adel.hangulat = 0.83;
 
+            Diak adel = new Diak("Adél", 17, 0.83);
             Diak bela = new Diak("Béla", 15, 0.42);
             Diak csaba = new Diak("Csaba", 18, 0.15);
 
             //Console.WriteLine($"Diákok: {adel.nev} {bela.nev} {csaba.nev}");
 
             // Bemutatkozás
-            // Bemutatkozas(adel) ~ adel.Bemutatkozas()
+            // Bemutatkozas(adel) ~ adel.Bemutatkozas() ~ adel
             Console.WriteLine(adel);
             Console.WriteLine(bela);
             Console.WriteLine(csaba);
+            Console.WriteLine();
+
+            // Pihen
+            // 0.83 -- 3 nap pihenés --> 0.98
+            // adel.hangulat ~ adel.GetHangulat()
+            Console.WriteLine($"Adél hangulata {adel.GetHangulat()}%");
+            adel.Pihen(3);
+            Console.WriteLine($"Pihenés után: {adel.GetHangulat()}%");
+
+            // Public, private
+            //adel.hangulat = 500;
+            Console.WriteLine($"Új hangulat: {adel.GetHangulat()}%");
+            Console.WriteLine();
+
+            Console.WriteLine($"Régi név: {adel.GetNev()}");
+            adel.SetNev("Léda");
+            adel.SetNev("Vonatkerékpumpáló József");
+            Console.WriteLine($"Új név: {adel.GetNev()}");
         }
 
         static string Bemutatkozas(Tanulo t)

@@ -30,6 +30,7 @@ namespace Jegyek
         }
         #endregion
 
+        #region 3. Getter, Setter
         public double GetHangulat()
         {
             return this.hangulat * 100;
@@ -39,13 +40,7 @@ namespace Jegyek
         {
             return this.nev;
         }
-
-        // Senkinek a neve legfeljebb 20 karakter!
-        public void SetNev(string nev)
-        {
-            if (nev.Length > 20) return;
-            this.nev = nev;
-        }
+        #endregion
 
         #region 4. Metódusok
         public string Bemutatkozas()

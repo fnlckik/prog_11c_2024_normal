@@ -49,8 +49,11 @@ namespace Jegyek
             Console.WriteLine($"Új hangulat: {adel.GetHangulat()}%");
             Console.WriteLine();
 
-            //adel.nev = "Gabi";
+            //adel.nev = "Léda";
             Console.WriteLine($"Adél neve: {adel.GetNev()}");
+            adel.SetNev("Léda");
+            adel.SetNev("Vonatkerékpumpáló József");
+            Console.WriteLine($"Adél új neve: {adel.GetNev()}");
         }
 
         static string Bemutatkozas(Tanulo t)

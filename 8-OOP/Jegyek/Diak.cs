@@ -40,6 +40,13 @@ namespace Jegyek
         {
             return this.nev;
         }
+
+        // setter esetén végezhetünk ellenőrzést a kapott paraméterre
+        public void SetNev(string nev)
+        {
+            if (nev == "" || nev.Length > 20) return;
+            this.nev = nev;
+        }
         #endregion
 
         #region 4. Metódusok

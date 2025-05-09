@@ -11,7 +11,7 @@ namespace Jegyek
         // public: mindenhol elérhető
         // private: csak az osztályon belül elérhető
         private string nev;
-        public int kor;
+        private int kor;
         private double hangulat; // 0.00-1.00 százalékos érték
         #endregion
 
@@ -47,7 +47,48 @@ namespace Jegyek
             if (nev == "" || nev.Length > 20) return;
             this.nev = nev;
         }
+
+        public int GetKor()
+        {
+            return this.kor;
+        }
         #endregion
+
+        // Property
+        public int Kor
+        {
+            get
+            {
+                return this.kor;
+            }
+        }
+
+        // Arrow function (nyíl függvény)
+        // x => x^2 (hozzárendelem az x^2-et)
+        /*
+        get
+        {
+            return this.nev;
+        }
+        */
+        public string Nev
+        {
+            get => this.nev;
+
+            set
+            {
+                if (value == "" || value.Length > 20) return;
+                this.nev = value;
+            }
+        }
+
+        public double Hangulat
+        {
+            get
+            {
+                return this.hangulat * 100;
+            }
+        }
 
         #region 4. Metódusok
         public string Bemutatkozas()

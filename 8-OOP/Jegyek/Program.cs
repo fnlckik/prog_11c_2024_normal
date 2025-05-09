@@ -40,20 +40,25 @@ namespace Jegyek
             // Pihen
             // 0.83 -- 3 nap pihenés --> 0.98
             // adel.hangulat ~ adel.GetHangulat()
-            Console.WriteLine($"Adél hangulata {adel.GetHangulat()}%");
+            Console.WriteLine($"Adél hangulata {adel.Hangulat}%");
             adel.Pihen(3);
-            Console.WriteLine($"Pihenés után: {adel.GetHangulat()}%");
+            Console.WriteLine($"Pihenés után: {adel.Hangulat}%");
 
             // Public, private
             //adel.hangulat = 500;
-            Console.WriteLine($"Új hangulat: {adel.GetHangulat()}%");
+            Console.WriteLine($"Új hangulat: {adel.Hangulat}%");
             Console.WriteLine();
 
             //adel.nev = "Léda";
-            Console.WriteLine($"Adél neve: {adel.GetNev()}");
-            adel.SetNev("Léda");
-            adel.SetNev("Vonatkerékpumpáló József");
-            Console.WriteLine($"Adél új neve: {adel.GetNev()}");
+            // adel.GetNev() => adel.Nev
+            // adel.SetNev("Léda") => adel.Nev = "Léda"
+            Console.WriteLine($"Adél neve: {adel.Nev}");
+            adel.Nev = "Léda";
+            adel.Nev = "Vonatkerékpumpáló József";
+            Console.WriteLine($"Adél új neve: {adel.Nev}");
+
+            // Field => Property
+            Console.WriteLine($"{adel.Nev} életkora: " + adel.Kor);
         }
 
         static string Bemutatkozas(Tanulo t)

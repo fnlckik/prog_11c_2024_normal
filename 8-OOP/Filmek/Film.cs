@@ -6,7 +6,7 @@
         public int ev;
         public string mufaj;
         public double imdb;
-        public int nezok;
+        public int nezok; // Hányan értékelték imdb-n?
 
         public Film(string cim, int ev, string mufaj, double imdb, int nezok)
         {
@@ -28,6 +28,10 @@
             this.nezok = int.Parse(sor[4]);
         }
 
-        // public ToString
+        // Kiir() => ToString()
+        public override string ToString()
+        {
+            return $"{this.cim} ({this.ev}) - {this.imdb}";
+        }
     }
 }

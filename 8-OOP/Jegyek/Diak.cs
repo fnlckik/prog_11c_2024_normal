@@ -57,10 +57,7 @@ namespace Jegyek
         // Property
         public int Kor
         {
-            get
-            {
-                return this.kor;
-            }
+            get => this.kor;
         }
 
         // Arrow function (nyíl függvény)
@@ -82,12 +79,15 @@ namespace Jegyek
             }
         }
 
+        /*
+        get
+        {
+            return this.hangulat * 100;
+        }
+        */
         public double Hangulat
         {
-            get
-            {
-                return this.hangulat * 100;
-            }
+            get => this.hangulat * 100;
         }
 
         #region 4. Metódusok

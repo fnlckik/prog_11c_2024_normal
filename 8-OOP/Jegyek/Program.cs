@@ -24,9 +24,9 @@ namespace Jegyek
             //adel.kor = 17;
             //adel.hangulat = 0.83;
 
-            Diak adel = new Diak("Adél", 17, 0.83);
-            Diak bela = new Diak("Béla", 15, 0.42);
-            Diak csaba = new Diak("Csaba", 18, 0.15);
+            Diak3 adel = new Diak3("Adél", 17, 0.83);
+            Diak3 bela = new Diak3("Béla", 15, 0.42);
+            Diak3 csaba = new Diak3("Csaba", 18, 0.15);
 
             //Console.WriteLine($"Diákok: {adel.nev} {bela.nev} {csaba.nev}");
 

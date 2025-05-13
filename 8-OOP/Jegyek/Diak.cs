@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Jegyek
 {
@@ -13,6 +14,7 @@ namespace Jegyek
         private string nev;
         private int kor;
         private double hangulat; // 0.00-1.00 százalékos érték
+        public List<int> jegyek;
         #endregion
 
         #region 2. Konstruktorok
@@ -26,11 +28,12 @@ namespace Jegyek
             this.nev = nev;
             this.kor = kor;
             this.hangulat = hangulat;
+            this.jegyek = new List<int>();
             Console.WriteLine("Létrejött az objektum egy példánya!");
         }
         #endregion
 
-        #region 3. Getter, Setter
+        #region 3. Getter, Setter (classic)
         public double GetHangulat()
         {
             return this.hangulat * 100;
@@ -54,6 +57,7 @@ namespace Jegyek
         }
         #endregion
 
+        #region 3. Getter, Setter (property)
         // Property
         public int Kor
         {
@@ -89,6 +93,7 @@ namespace Jegyek
         {
             get => this.hangulat * 100;
         }
+        #endregion
 
         #region 4. Metódusok
         public string Bemutatkozas()
@@ -110,6 +115,28 @@ namespace Jegyek
             if (nap < 0) return;
             this.hangulat += nap * 0.05;
             if (this.hangulat > 1) this.hangulat = 1;
+        }
+
+        // Kiírja a diák jegyeit
+        public void KiirJegyek()
+        {
+            Console.Write(this.nev + ": ");
+            foreach (int jegy in this.jegyek)
+            {
+                Console.Write(jegy + " ");
+            }
+            Console.WriteLine();
+        }
+
+        public double Atlag()
+        {
+            int osszeg = 0;
+            foreach (int jegy in this.jegyek)
+            {
+                osszeg += jegy;
+            }
+            double atlag = (double)osszeg / this.jegyek.Count;
+            return Math.Round(atlag, 2);
         }
         #endregion
     }

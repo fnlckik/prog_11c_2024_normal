@@ -24,9 +24,9 @@ namespace Jegyek
             //adel.kor = 17;
             //adel.hangulat = 0.83;
 
-            Diak3 adel = new Diak3("Adél", 17, 0.83);
-            Diak3 bela = new Diak3("Béla", 15, 0.42);
-            Diak3 csaba = new Diak3("Csaba", 18, 0.15);
+            Diak adel = new Diak("Adél", 17, 0.83);
+            Diak bela = new Diak("Béla", 15, 0.42);
+            Diak csaba = new Diak("Csaba", 18, 0.15);
 
             //Console.WriteLine($"Diákok: {adel.nev} {bela.nev} {csaba.nev}");
 
@@ -59,6 +59,30 @@ namespace Jegyek
 
             // Field => Property
             Console.WriteLine($"{adel.Nev} életkora: " + adel.Kor);
+            Console.Clear();
+
+            // Jegyek
+            adel.jegyek.Add(4);
+            adel.jegyek.Add(5);
+            adel.jegyek.Add(5);
+            csaba.jegyek.Add(2);
+            csaba.jegyek.Add(3);
+            adel.KiirJegyek();
+            bela.KiirJegyek();
+            csaba.KiirJegyek();
+
+            //Console.WriteLine($"{adel.Nev} átlaga: {adel.Atlag()}");
+            //Console.WriteLine($"{bela.Nev} átlaga: {bela.Atlag() == NaN}");
+            //Console.WriteLine($"{csaba.Nev} átlaga: {csaba.Atlag()}");
+            if (double.IsNaN(bela.Atlag()))
+            {
+                Console.WriteLine("-");
+            }
+            else
+            {
+                Console.WriteLine(bela.Atlag());
+            }
+            // Kiírásnál a double.IsNaN-t kellene használjuk!?
         }
 
         static string Bemutatkozas(Tanulo t)

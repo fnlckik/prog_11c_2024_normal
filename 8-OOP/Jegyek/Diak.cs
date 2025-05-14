@@ -14,7 +14,7 @@ namespace Jegyek
         private string nev;
         private int kor;
         private double hangulat; // 0.00-1.00 százalékos érték
-        public List<int> jegyek;
+        private List<int> jegyek = new List<int>();
         #endregion
 
         #region 2. Konstruktorok
@@ -27,9 +27,8 @@ namespace Jegyek
         {
             this.nev = nev;
             this.kor = kor;
-            this.hangulat = hangulat;
-            this.jegyek = new List<int>();
-            Console.WriteLine("Létrejött az objektum egy példánya!");
+            this.hangulat = Math.Round(hangulat, 2);
+            //Console.WriteLine("Létrejött az objektum egy példánya!");
         }
         #endregion
 
@@ -93,6 +92,20 @@ namespace Jegyek
         {
             get => this.hangulat * 100;
         }
+
+        /*
+        List<int> jegyek = new List<int>();
+        foreach (int jegy in this.jegyek)
+        {
+            jegyek.Add(jegy);
+        }
+        return jegyek;
+        */
+        // return new List<int>(this.jegyek);
+        public List<int> Jegyek
+        {
+            get => new List<int>(this.jegyek);
+        }
         #endregion
 
         #region 4. Metódusok
@@ -140,6 +153,12 @@ namespace Jegyek
             }
             double atlag = (double)osszeg / this.jegyek.Count;
             return Math.Round(atlag, 2).ToString();
+        }
+
+        public void JegyetKap(int jegy)
+        {
+            if (jegy < 1 || jegy > 5) return;
+            this.jegyek.Add(jegy);
         }
         #endregion
     }

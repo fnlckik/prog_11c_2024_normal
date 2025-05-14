@@ -62,11 +62,23 @@ namespace Jegyek
             Console.Clear();
 
             // Jegyek
-            adel.jegyek.Add(4);
-            adel.jegyek.Add(5);
-            adel.jegyek.Add(5);
-            csaba.jegyek.Add(2);
-            csaba.jegyek.Add(3);
+            //adel.jegyek.Add(4);
+            //adel.jegyek.Add(5);
+            //adel.jegyek.Add(5);
+            //csaba.jegyek.Add(2);
+            //csaba.jegyek.Add(3);
+            //adel.jegyek.Add(100);
+
+            adel.JegyetKap(4);
+            adel.JegyetKap(5);
+            adel.JegyetKap(5);
+            csaba.JegyetKap(2);
+            csaba.JegyetKap(3);
+            adel.JegyetKap(100);
+
+            adel.Jegyek.Add(100);
+            Console.WriteLine($"{adel.Nev} jegyeinek száma: {adel.Jegyek.Count}");
+
             adel.KiirJegyek();
             bela.KiirJegyek();
             csaba.KiirJegyek();
@@ -89,6 +101,16 @@ namespace Jegyek
             Console.WriteLine($"{adel.Nev} átlaga: {adel.Atlag()}");
             Console.WriteLine($"{bela.Nev} átlaga: {bela.Atlag()}");
             Console.WriteLine($"{csaba.Nev} átlaga: {csaba.Atlag()}");
+            Console.Clear();
+
+            // Csoport
+            //Diak diak = new Diak();
+            //diak.Nev = "Laci";
+            //Console.WriteLine(diak.Jegyek.Count);
+
+            Csoport cs2 = new Csoport(17);
+            Console.WriteLine("cs2 létszáma: " + cs2.Letszam);
+            Console.WriteLine(cs2);
         }
 
         static string Bemutatkozas(Tanulo t)

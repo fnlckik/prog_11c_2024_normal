@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Csoport.cs" />
     <Compile Include="Diak.cs" />
     <Compile Include="Diak2.cs" />
     <Compile Include="Diak3.cs" />

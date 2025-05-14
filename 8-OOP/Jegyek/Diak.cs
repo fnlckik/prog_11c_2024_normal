@@ -128,15 +128,18 @@ namespace Jegyek
             Console.WriteLine();
         }
 
-        public double Atlag()
+        // Ha nincs jegye: -
+        // különben: az átlagot
+        public string Atlag()
         {
+            if (this.jegyek.Count == 0) return "-";
             int osszeg = 0;
             foreach (int jegy in this.jegyek)
             {
                 osszeg += jegy;
             }
             double atlag = (double)osszeg / this.jegyek.Count;
-            return Math.Round(atlag, 2);
+            return Math.Round(atlag, 2).ToString();
         }
         #endregion
     }

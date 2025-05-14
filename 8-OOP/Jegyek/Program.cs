@@ -74,15 +74,21 @@ namespace Jegyek
             //Console.WriteLine($"{adel.Nev} átlaga: {adel.Atlag()}");
             //Console.WriteLine($"{bela.Nev} átlaga: {bela.Atlag() == NaN}");
             //Console.WriteLine($"{csaba.Nev} átlaga: {csaba.Atlag()}");
-            if (double.IsNaN(bela.Atlag()))
-            {
-                Console.WriteLine("-");
-            }
-            else
-            {
-                Console.WriteLine(bela.Atlag());
-            }
+            //if (double.IsNaN(bela.Atlag()))
+            //{
+            //    Console.WriteLine("-");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(bela.Atlag());
+            //}
             // Kiírásnál a double.IsNaN-t kellene használjuk!?
+            //Console.WriteLine(adel.Nev + " átlaga: " + (double.IsNaN(adel.Atlag()) ? "-" : adel.Atlag().ToString()) );
+            //Console.WriteLine(bela.Nev + " átlaga: " + (double.IsNaN(bela.Atlag()) ? "-" : bela.Atlag().ToString()) );
+            //Console.WriteLine(csaba.Nev + " átlaga: " + (double.IsNaN(csaba.Atlag()) ? "-" : csaba.Atlag().ToString()) );
+            Console.WriteLine($"{adel.Nev} átlaga: {adel.Atlag()}");
+            Console.WriteLine($"{bela.Nev} átlaga: {bela.Atlag()}");
+            Console.WriteLine($"{csaba.Nev} átlaga: {csaba.Atlag()}");
         }
 
         static string Bemutatkozas(Tanulo t)

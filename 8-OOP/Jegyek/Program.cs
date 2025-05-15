@@ -111,6 +111,12 @@ namespace Jegyek
             Csoport cs2 = new Csoport(17);
             Console.WriteLine("cs2 létszáma: " + cs2.Letszam);
             Console.WriteLine(cs2);
+            for (int i = 0; i < 5; i++)
+            {
+                cs2.DolgozatIras();
+            }
+            cs2.Naplo();
+            cs2.Lezaras("tanev.txt");
         }
 
         static string Bemutatkozas(Tanulo t)

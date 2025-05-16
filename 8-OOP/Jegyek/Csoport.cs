@@ -47,11 +47,20 @@ namespace Jegyek
         {
             foreach (Diak diak in this.diakok)
             {
-                double sz = r.NextDouble(); // [0.00 - 1.00)
+                double sz = this.r.NextDouble(); // [0.00 - 1.00)
                 if (sz < 0.8) // 80% valószínűséggel megírja
                 {
-                    int jegy = this.r.Next(1, 6);
-                    diak.JegyetKap(jegy);
+                    // Elégtelen valószínűsége: 50% (egyébként 2-5)
+                    double elegtelen = this.r.NextDouble();
+                    if (elegtelen <= 0.5)
+                    {
+                        diak.JegyetKap(1);
+                    }
+                    else
+                    {
+                        int jegy = this.r.Next(2, 6);
+                        diak.JegyetKap(jegy);
+                    }
                 }
             }
         }
@@ -85,9 +94,19 @@ namespace Jegyek
             StreamWriter sw = new StreamWriter(fajl);
             foreach (Diak diak in this.diakok)
             {
-                if (diak.Jegyek.Count >= 3)
+                // "1,75" "1,8"
+                // diak.Atlag() >= "1,8"
+                // Átment:
+                // a) Van legalább 3 jegye
+                // b) Az átlaga 1.8-hoz viszonyítva nagyobb vagy egyenlő annál.
+                // diak.Atlag().CompareTo("1,8") >= 0
+                if (diak.Jegyek.Count >= 3 && double.Parse(diak.Atlag()) >= 1.8)
                 {
-                    sw.WriteLine($"{diak.Nev}: {diak.Atlag()}");
+                    sw.WriteLine($"{diak.Nev}: {Math.Round(double.Parse(diak.Atlag()))}");
+                }
+                else
+                {
+                    sw.WriteLine($"{diak.Nev}: PÓTVIZSGA");
                 }
             }
             sw.Close();

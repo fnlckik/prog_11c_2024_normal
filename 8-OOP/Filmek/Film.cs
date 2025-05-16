@@ -2,11 +2,11 @@
 {
     class Film
     {
-        public string cim;
-        public int ev;
-        public string mufaj;
-        public double imdb;
-        public int nezok; // Hányan értékelték imdb-n?
+        private string cim;
+        private int ev;
+        private string mufaj;
+        private double imdb;
+        private int nezok; // Hányan értékelték imdb-n?
 
         public Film(string cim, int ev, string mufaj, double imdb, int nezok)
         {
@@ -27,6 +27,8 @@
             this.imdb = double.Parse(sor[3]);
             this.nezok = int.Parse(sor[4]);
         }
+
+        public string Cim { get => cim; }
 
         // Kiir() => ToString()
         public override string ToString()

@@ -1,4 +1,6 @@
-﻿namespace Filmek
+﻿using System.Collections.Generic;
+
+namespace Filmek
 {
     class Film
     {
@@ -7,6 +9,8 @@
         private string mufaj;
         private double imdb;
         private int nezok; // Hányan értékelték imdb-n?
+        // Lista is lehetne.
+        private HashSet<string> ervenyesek = new HashSet<string> { "akcio", "fantasy", "kaland", "horror" };
 
         public Film(string cim, int ev, string mufaj, double imdb, int nezok)
         {
@@ -28,12 +32,43 @@
             this.nezok = int.Parse(sor[4]);
         }
 
-        public string Cim { get => cim; }
+        public string Cim { get => this.cim; }
+
+        public string Ev
+        {
+            get
+            {
+                if (this.ev < 2019) return $"{this.ev} BC";
+                return $"{this.ev} AC";
+            }
+        }
+
+        //if (value == "akcio" || value == "kaland" || value == "fantasy" || value == "horror")
+        //{
+        //    this.mufaj = value;
+        //}
+        public string Mufaj
+        {
+            set
+            {
+                if (!ervenyesek.Contains(value)) return;
+                this.mufaj = value;
+            }
+            get => this.mufaj;
+        }
 
         // Kiir() => ToString()
         public override string ToString()
         {
             return $"{this.cim} ({this.ev}) - {this.imdb}";
+        }
+
+        public void Ertekel(int pont)
+        {
+            double osszeg = this.imdb * this.nezok; // 146.0
+            osszeg += pont; // 152.0
+            this.nezok++; // 21
+            this.imdb = osszeg / this.nezok; // 7.24 // Kerekítéshez külön getter!
         }
     }
 }

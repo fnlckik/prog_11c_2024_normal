@@ -18,12 +18,21 @@ namespace Filmek
             Console.WriteLine(film3); // Vérapó (2022) - 7,5
 
             // Ev getter: 2019 előtti filmek covid előttiek
+            // ev >= 2019 (covid utáni)
             Console.WriteLine(film1.Ev); // "2017 BC"
             Console.WriteLine(film3.Ev); // "2022 AC"
 
             // Mufaj setter: 4 fajta lehet ("akcio", "fantasy", "kaland", "horror")
             film2.Mufaj = "akcio"; // helyes, megváltozik a műfaj
             film2.Mufaj = "romantikus"; // nem történik semmi
+            Console.WriteLine(film2.Mufaj);
+
+            // Az 7.3 (20 fő) => összesen 146 pont
+            // új értékelés: 6
+            // 146 + 6 = 152 => átlag: 7.24
+            Console.WriteLine(film1);
+            film1.Ertekel(6);
+            Console.WriteLine(film1);
         }
     }
 }

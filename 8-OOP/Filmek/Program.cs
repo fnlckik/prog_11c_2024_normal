@@ -31,6 +31,7 @@ namespace Filmek
             // új értékelés: 6
             // 146 + 6 = 152 => átlag: 7.24
             Console.WriteLine(film1);
+            film1.Ertekel(6000);
             film1.Ertekel(6);
             Console.WriteLine(film1);
         }

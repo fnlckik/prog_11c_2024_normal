@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Filmek
 {
@@ -57,14 +58,24 @@ namespace Filmek
             get => this.mufaj;
         }
 
+        public double Imdb
+        {
+            get => Math.Round(this.imdb, 2);
+            //get
+            //{
+            //    return Math.Round(this.imdb, 2);
+            //}
+        }
+
         // Kiir() => ToString()
         public override string ToString()
         {
-            return $"{this.cim} ({this.ev}) - {this.imdb}";
+            return $"{this.cim} ({this.ev}) - {this.Imdb}";
         }
 
         public void Ertekel(int pont)
         {
+            if (pont > 10 || pont < 0) return; // ha nem jó a pont, nem csinálunk semmit
             double osszeg = this.imdb * this.nezok; // 146.0
             osszeg += pont; // 152.0
             this.nezok++; // 21

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Filmek
 {
-    class Film
+    public class Film
     {
         private string cim;
         private int ev;
@@ -80,6 +80,12 @@ namespace Filmek
             osszeg += pont; // 152.0
             this.nezok++; // 21
             this.imdb = osszeg / this.nezok; // 7.24 // Kerekítéshez külön getter!
+        }
+
+        // Összehasonlít 2 filmet: igaz ha az első korábban készült
+        public bool KorabbiE(Film film)
+        {
+            return this.ev < film.ev;
         }
     }
 }

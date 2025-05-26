@@ -34,6 +34,18 @@ namespace Filmek
             film1.Ertekel(6000);
             film1.Ertekel(6);
             Console.WriteLine(film1);
+
+            Console.Clear();
+
+            // Televizio
+            Televizio tv2 = new Televizio("filmek.txt");
+            Console.WriteLine(tv2);
+            Console.WriteLine(film1.KorabbiE(film2)); // false
+            Console.WriteLine(film1.KorabbiE(film3)); // true
+            Console.Clear();
+
+            Console.WriteLine(tv2.Legregebbi());
+            tv2.Kiir("ujsag.txt", 10); // 10 legjobbat
         }
     }
 }

@@ -1,4 +1,4 @@
-# OOP + SQL - beadandó
+# OOP - beadandó
 
 **Beadni:** `projektnev.zip` fájl
 

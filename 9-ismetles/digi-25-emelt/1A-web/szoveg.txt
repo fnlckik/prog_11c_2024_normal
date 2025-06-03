@@ -1,0 +1,100 @@
+garas.html
+
+Garas Dezső
+
+Garas Dezső (született Grósz, Budapest, Erzsébetváros, 1934. december 9. – Budapest, 2011. december 30.) a Nemzet Színésze címmel kitüntetett, Kossuth- és kétszeres Jászai Mari-díjas magyar színművész, érdemes és kiváló művész, a Halhatatlanok Társulatának örökös tagja.
+A Színház- és Filmművészeti Főiskolán tanult 1953-tól 1957-ig, majd az egyébként kötelező vidéki kezdést elkerülve, Major Tamás a Nemzeti Színházhoz szerződtette. 1965-től 1976-ig a Madách Színház tagja volt, majd egy évadot a 25. Színházban töltött. 1977-től 1980-ig a Mafilm munkatársa, majd 10 évig a Népszínház tagja. 1990-ig a Magyar Színházművészeti Szövetség tagja volt. 1990–1993 között a szolnoki Szigligeti Színházba szerződött, majd két évadig a Művész Színház vendégművészeként játszott. 1993-tól 2003-ig szabadúszó színész volt. 1999 és 2002 között a budapesti Katona József Színházban játszott. 2003-ban egy évadra a Vígszínház, 2004-től haláláig újra a Nemzeti Színház művésze volt.
+Első színpadi rendezése 1982-ben vendégrendezőként a Józsefvárosi Színházban Eduardo De Filippo: Ezek a kísértetek című darabja volt. Filmen először a Makk Károly rendezésében 1954-ben készült Liliomfiban ifj. Schnapsot alakította. Utolsó filmes szerepe Frici megformálása volt a 2011-ben készült Világjobbítók című tévéfilmben. 2011 decemberében bejelentette, hogy visszavonul a színpadtól, ám döntését nyilvánosságra nem hozták. A Nemzeti Színházban utolsó előadása december 20-án volt, amikor Törőcsik Mari kérésére még eljátszotta az apa szerepét Fejes Endre–Presser Gábor: Jó estét nyár, jó estét szerelem című musicaljében. Munkássága során leginspirálóbb partnereinek Darvas Ivánt, Kern Andrást, Kútvölgyi Erzsébetet és Törőcsik Marit tartotta. Utóbbihoz fűződő barátsága egész pályafutása során végigkísérte, először 1954-ben léptek együtt színpadra a Nemzeti Színházban.
+
+Ikonikus szerepek
+
+Képek Garas filmjeiből
+
+
+Forrás:
+-------
+        <p>Kép és szöveg: <a href="https://hu.wikipedia.org/wiki/Garas_Dezső">https://hu.wikipedia.org/wiki/Garas_Dezső</a> (Utolsó letöltés: 2024.10.11.)</p>
+        <p>Az ikonikus szerepek képeinek forrása:</p>
+        <ul>
+            <li>Ripacsok: <a href="http://pctrs.network.hu/clubpicture/2/5/8/_/kern_andras_garas_dezso__ripacsok_2058607_4493.jpg">http://pctrs.network.hu/clubpicture/2/5/8/_/kern_andras_garas_dezso__ripacsok_2058607_4493.jpg</a> (Utolsó letöltés: 2024.10.11.)</li>
+            <li>Abigél: <a href="https://www.gyaszhuszar.hu/pages/szalay/contents/article/35/32190/pics/1418126114_600x500.jpg">https://www.gyaszhuszar.hu/pages/szalay/contents/article/35/32190/pics/1418126114_600x500.jpg</a> (Utolsó letöltés: 2024.10.11.)</li>
+            <li>Régi idők focija: <a href="https://nfi.hu/files/slide/image/12263/fe_896_504_regi_idok_focija_%20(6).jpg">https://nfi.hu/files/slide/image/12263/fe_896_504_regi_idok_focija_%20(6).jpg</a> (Utolsó letöltés: 2024.10.11.)</li>
+        </ul>
+-------
+
+
+dijazottak.html
+
+A Nemzet Színésze
+
+A Nemzet Színésze címet a nemzeti színjátszás élő művészei közül azok kaphatják meg, akik a magyar nyelv ápolása, a nemzeti irodalom tolmácsolása, a magyar színművészet, a nemzeti színjátszás fejlesztése, népszerűsítése terén kimagasló érdemeket szereztek. A címet első ízben 2000. augusztus 22-én adták át.
+A Nemzet Színésze cím annak adományozható, aki fő- vagy epizódszerepekben kimagasló teljesítményt nyújtott; betöltötte a 62. életévét; 40 évet a színészi pályán vagy legalább 20 évadot – évadonként legalább egy szerepben – a budapesti Nemzeti Színház színpadán töltött.
+A címet legfeljebb tizenketten viselhetik egyszerre, és ők életük végéig havonta nettó 630 ezer forint juttatásban részesülnek. Ha a cím egyik viselője elhalálozik, temetése után a megüresedett helyre a cím többi birtokosa egyhangú szavazással tehet javaslatot.
+Az elismerést először Schwajda György kormánybiztos, a Nemzeti Színház Részvénytársaság vezérigazgatója javaslatára adományozta 2000-ben Rockenbauer Zoltán, a nemzeti kulturális örökség minisztere.
+
+A díjazottak (ábécérendben, a megválasztás évével)
+
+-------
+
+Bodrogi Gyula	2007	1934
+Molnár Piroska	2011	1945
+Cserhalmi György	2014	1948
+Szacsvay László	2015	1947
+Almási Éva	2016	1942
+Jordán Tamás	2020	1943
+Lehoczky Zsuzsa	2021	1936
+Pogány Judit	2023	1944
+Udvaros Dorottya	2023	1954
+Csikos Sándor	2024	1941
+Hegedűs D. Géza	2024	1953
+Kulka János	2024	1958
+Agárdy Gábor	2000	1922
+Berek Kati	2000	1930
+Bessenyei Ferenc	2000	1919
+Darvas Iván	2000	1925
+Garas Dezső	2000	1934
+Kállai Ferenc	2000	1925
+Lukács Margit	2000	1914
+Máthé Erzsi	2000	1927
+Psota Irén	2000	1929
+Raksányi Gellért	2000	1925
+Sinkovits Imre	2000	1928
+Törőcsik Mari	2000	1935
+Avar István	2001	1931
+Komlós Juci	2002	1919
+Zenthe Ferenc	2005	1920
+Király Levente	2006	1937
+Szabó Gyula	2006	1930
+Tordy Géza	2008	1938
+Haumann Péter	2010	1941
+Sztankay István	2012	1936
+Bitskey Tibor	2014	1929
+Gera Zoltán	2014	1923
+Kóti Árpád	2014	1934
+Andorai Péter	2015	1948
+Csomós Mari	2017	1943
+Balázsovits Lajos	2022	1946
+Benedek Miklós	2023	1946
+
+--------
+
+A cím első birtokosai
+
+--------
+        <div class="elso"><img class="elsok" alt="" src="kepek/agardy.jpg"><br>Agárdy Gábor</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/berek.jpg"><br>Berek Kati</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/bessenyei.jpg"><br>Bessenyei Ferenc</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/darvas.jpg"><br>Darvas Iván</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/garas.jpg"><br>Garas Dezső</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/kallai.jpg"><br>Kállai Ferenc</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/lukacs.jpg"><br>Lukács Margit</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/mathe.jpg"><br>Máthé Erzsi</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/psota.jpg"><br>Psota Irén</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/raksanyi.jpg"><br>Raksányi Gellért</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/sinkovits.jpg"><br>Sinkovits Imre</div>
+        <div class="elso"><img class="elsok" alt="" src="kepek/torocsik.jpg"><br>Törőcsik Mari</div>
+--------
+Megválasztásuk időpontja: 2000. augusztus 20.
+Forrás:
+	<p>Szöveg: <a href="https://hu.wikipedia.org/wiki/A_Nemzet_Színésze">https://hu.wikipedia.org/wiki/A_Nemzet_Színésze</a> (Utolsó letöltés: 2024.10.11.)</p>
+	<p>Képek: <a href="https://nemzetiszinhaz.hu/a-nemzet-szineszei">https://nemzetiszinhaz.hu/a-nemzet-szineszei</a> (Utolsó letöltés: 2024.10.11.)</p>

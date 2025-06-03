@@ -1,0 +1,357 @@
+																		Szélesség	Hosszúság	szelB	hosszB
+Hely	Ország	Szélesség	szelA	Hosszúság	hosszA	Távolság	Szezon	Legmagasabb pont	Legalacsonyabb pont	Kezdő pályák	Közepes pályák	Nehéz pályák	Összes pálya	Leghosszabb pálya	Nyári síelés		Budapest	47,497913	19,040236	0,82899497	0,332314809
+Hemsedal	Norvégia	60,9282437		8,38348693			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	1450	620	29	10	4		6
+Geilosiden Geilo	Norvégia	60,5345261		8,2063719			Nov, Dec, Jan, Febr, Márc, Ápr	1178	800	18	12	4		2			Legközelebb
+Golm	Ausztria	47,05781		9,8281668			Dec, Jan, Febr, Márc, Ápr	2110	650	13	12	1		9			Legmagasabb pont
+Hafjell	Norvégia	61,2303686		10,52901357			Nov, Dec, Jan, Febr, Márc, Ápr	1030	195	33	7	4		6			Ország
+Voss	Norvégia	60,6837065		6,407904807			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	960	284	25	4	11		0
+Hochschwarzeck	Németország	47,6283728		12,9205276			Dec, Jan, Febr, Márc, Ápr	1385	1030	4	0	0		0
+Fonna Glacier	Norvégia	60,2168823		6,435787158			Máj, Jún, Júl, Aug, Szept	1460	1200	2	2	0		0
+Rossfeld - Berchtesgaden - Oberau	Németország	47,6513062		13,0589774			Dec, Jan, Febr, Márc, Ápr	1554	1300	7	1	0		6
+Brauneck enggries Wegscheid	Németország	47,674786		11,554735			Dec, Jan, Febr, Márc, Ápr	1712	700	8	22	4		3
+Zermatt - Matterhorn	Svájc	45,96300885		7,715412186			Egész évben	3899	1562	75	220	27		16
+Val Gardena	Olaszország	46,5766427		11,6444217			Dec, Jan, Febr, Márc, Ápr	2518	1236	52	105	18		10
+Gressoney - La-Trinite (Monterosa Ski)	Olaszország	45,8597574		7,752615678			Dec, Jan, Febr, Márc, Ápr	3275	1212	23	94	15		8
+Les Gets (Les Portes du Soleil)	Franciaország	46,1550977		6,6633312			Dec, Jan, Febr, Márc, Ápr	2466	1000	310	210	60		0
+Espace San Bernardo – La Rosičre/La Thuile	Franciaország	45,62647605		6,852962415			Dec, Jan, Febr, Márc, Ápr	2641	1176	55	83	22		11
+The Lecht	Egyesült Királyság	57,200996		-3,247204			Dec, Jan, Febr, Márc, Ápr	775	637	5	9	4		0
+Les Contamines-Hauteluce	Franciaország	45,7970821		6,689198693			Dec, Jan, Febr, Márc, Ápr	2437	1164	40	60	20		0
+Nevis Range	Egyesült Királyság	56,8522081		-4,9987681			Dec, Jan, Febr, Márc, Ápr	655	91	7	10	3		0
+Valchiavenna – Madesimo/Campodolcino	Olaszország	46,4254637		9,389833451			Nov, Dec, Jan, Febr, Márc, Ápr	1550	1082	13	28	5		0
+La Thuile / La Rosičre - Espace San Bernardo	Olaszország	45,7162875		6,9486119			Dec, Jan, Febr, Márc, Ápr	2641	1176	55	83	22		0
+Livigno – Carosello/Mottolino	Olaszország	46,5200926		10,1289555			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2798	1816	30	65	20		6
+Madonna di Campiglio-Pinzolo-Folgarida-Marilleva	Olaszország	46,2269942		10,8270157			Nov, Dec, Jan, Febr, Márc, Ápr	2504	770	60	68	22		5
+Wagrain (Ski amedé)	Ausztria	47,3336293		13,3031532			Nov, Dec, Jan, Febr, Márc, Ápr	1980	740	30	81	4		6
+Kaunertal Glacier (Kaunertaler Gletscher)	Ausztria	46,8774734		10,7136205			Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj, Jún	3108	2180	14	4	2		5
+Saalbach Hinterglemm Leogang Fieberbrunn (Skicircus)	Ausztria	47,392906		12,636085			Nov, Dec, Jan, Febr, Márc, Ápr	2096	830	140	112	18		7
+Sestriere ski resort (Via Lattea)	Olaszország	44,954538		6,880658			Nov, Dec, Jan, Febr, Márc, Ápr	2749	1372	96	220	84		7
+Reither Kogel-Reith im Alpbachtal	Ausztria	47,4005419		11,8601176			Dec, Jan, Febr, Márc	1280	670	1	3	0		0
+Grandvalira – Pas de la Casa/Grau Roig/Soldeu/El Tarter/Canillo/Encamp	Andorra	42,54115005		1,733382094			Nov, Dec, Jan, Febr, Márc, Ápr	2640	1710	100	77	33		6
+Rinerhorn (Davos Klosters)	Svájc	46,74122595		9,798008893			Dec, Jan, Febr, Márc	2490	1454	10	22	8		7
+Madrisa (Davos Klosters)	Svájc	46,9097225		9,877450678			Dec, Jan, Febr, Márc	2611	1142	6	9	9		8
+Jakobshorn (Davos Klosters)	Svájc	46,772399		9,8493406			Dec, Jan, Febr, Márc, Ápr	2590	1540	25	13	2		6
+Glacier 3000 / Les Diablerets	Svájc	46,3511021		7,1566435			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3016	1343	9	3	12		8
+Obergurgl-Hochgurgl	Ausztria	46,879426		11,0387065			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3082	1793	35	55	20		8
+Les Deux alpes	Franciaország	45,0099949		6,1237609			Dec, Jan, Febr, Márc, Ápr, Jún, Júl, Aug, Okt, Nov	3560	1280	110	56	34		16
+Stubai Glacier	Ausztria	46,995462		11,14049			Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj, Jún	3212	1697	19	15	4		10
+Tignes - Val d’Isère	Franciaország	45,4580331		6,918835739			Nov, Dec, Jan, Febr, Márc, Ápr, Máj, Jún, Júl, Aug	3456	1550	170	78	52		6
+La Plagne (Paradiski)	Franciaország	45,50429855		6,704912253			Dec, Jan, Febr, Márc, Ápr	3167	1207	139	59	27		6
+Les Orres	Franciaország	44,5140024		6,5510313			Dec, Jan, Febr, Márc, Ápr	2720	1550	30	60	10		0
+Espace Diamant-Les Saisies/Notre-Dame-de-Bellecombe/Praz sur Arly/Flumet/Crest-Voland	Franciaország	45,78908		6,554098			Dec, Jan, Febr, Márc, Ápr	2069	1000	132	49	11		7
+Avoriaz (Les Portes du Soleil)	Franciaország	46,1925439		6,7702857			Dec, Jan, Febr, Márc, Ápr	2466	1000	310	210	60		0
+Châtel (Les Portes du Soleil)	Franciaország	46,255039		6,843619			Dec, Jan, Febr, Márc, Ápr	2466	1000	310	210	60		0
+Le Lys - Cauterets	Franciaország	42,8823131		-0,1553793			Nov, Dec, Jan, Febr, Márc, Ápr	1360	932	21	12	3		0
+Pont d'Espagne - Cauterets	Franciaország	42,8510114		-0,1399209			Nov, Dec, Jan, Febr, Márc, Ápr	1756	1516	3	1	0		0
+La Grave - La Meije	Franciaország	45,0454525		6,3067223			Dec, Jan, Febr, Márc, Ápr	3534	1470	3	0	0		0
+Courchevel (Les 3 Vallées)	Franciaország	45,4140984		6,6349892			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		12
+Saint Martin de Belleville (Les 3 Vallées)	Franciaország	45,3503871		6,500076137			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		0
+Alpe d'Huez	Franciaország	45,092401		6,0699443			Dec, Jan, Febr, Márc, Ápr	3330	1125	70	130	50		16
+La Tania-Val Thorens/Les Menuires/Méribel (Les 3 Vallées)	Franciaország	45,432169		6,5963993			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		0
+Sainte-Foy-Tarentaise	Franciaország	45,590355		6,8849094			Dec, Jan, Febr, Márc, Ápr	2620	1550	10	25	6		0
+Les Arcs / Peisey-Vallandry (Paradiski)	Franciaország	43,4629097		6,4786269			Dec, Jan, Febr, Márc, Ápr	3226	1200	104	70	26		7
+Montgenèvre (Via Lattea)	Franciaország	44,929277		6,729726			Nov, Dec, Jan, Febr, Márc, Ápr	2749	1372	96	220	84		0
+Bonneval sur Arc	Franciaország	45,3716864		7,0467945			Dec, Jan, Febr, Márc, Ápr	3000	1850	13	11	1		0
+Val Thorens (Les 3 Vallées)	Franciaország	45,2979109		6,5822693			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		0
+Serre Chevalier-Briançon/Chantemerle/Villeneuve-la-Salle/Le Monêtier-les-Bains	Franciaország	44,9107381		6,5500282			Dec, Jan, Febr, Márc, Ápr	2800	1200	138	80	32		9
+Kleine Scheidegg / Männlichen-Grindelwald / Wengen	Svájc	46,5850987		7,9608968			Nov, Dec, Jan, Febr, Márc, Ápr	2320	944	33	56	13		13
+Balme-Les Autannes-Vallorcine-Le Tour	Franciaország	46,2856827		4,7804099			Dec, Jan, Febr, Márc, Ápr	2270	1453	13	16	0		0
+Grands Montets-Argentière (Chamonix)	Franciaország	45,9777193		6,9238925			Dec, Jan, Febr, Márc, Ápr, Máj	3275	1252	6	9	14		6
+Arcalis-Ordino (Vallnord)	Andorra	42,6271621		1,491260579			Nov, Dec, Jan, Febr, Márc, Ápr	2625	1940	13	14	3		5
+Ruka	Finnország	66,1702656		29,1311291			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj, Jún	492	291	9	7	2		1
+Levi	Finnország	67,7844055		24,8557289			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	531	206	15	19	2		2
+Kranjska Gora	Szlovénia	46,485132		13,7843957			Dec, Jan, Febr, Márc, Ápr	1215	800	10	8	2		2
+El Tarter – Pas de la Casa/Grau Roig/Soldeu/Canillo/Encamp (Grandvalira)	Andorra	42,5803334		1,6496963			Nov, Dec, Jan, Febr, Márc, Ápr	2640	1710	100	77	33		0
+Bansko	Bulgária	41,8344086		23,4841698			Dec, Jan, Febr, Márc, Ápr	2560	990	20	24	3		16
+Kitzsteinhorn - Kaprun	Ausztria	47,1880444		12,6874982			Júl	3029	1978	13	25	3		5
+Glencoe Mountain	Egyesült Királyság	56,68154175		-5,10644312			Dec, Jan, Febr, Márc, Ápr	1070	360	7	10	7		0
+Sölden	Ausztria	46,9673961		11,0070193			Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3340	1350	70	44	29		15
+Kuühtai	Ausztria	47,212049		11,017326			Nov, Dec, Jan, Febr, Márc, Ápr	2520	1938	6	26	8		4
+Obertauern	Ausztria	47,2494362		13,5569603			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2313	1630	61	35	4		5
+Elfer Neustift	Ausztria	47,1064691		11,3079828			Dec, Jan, Febr, Márc	2080	981	0	7	0		5
+Serfaus-Fiss-Ladis	Ausztria	47,0530324		10,61913705			Dec, Jan, Febr, Márc, Ápr	2820	1200	47	123	28		10
+Hochkönig-Maria Alm/Dienten/Mühlbach	Ausztria	47,38650655		12,95641323			Dec, Jan, Febr, Márc, Ápr	1900	800	52	41	19		9
+Májusrhofen-Penken/Ahorn/Rastkogel/Eggalm	Ausztria	47,1672188		11,8638664			Dec, Jan, Febr, Márc, Ápr	2500	630	40	66	30		10
+St, Anton (Ski Arlberg)	Ausztria	47,18265425		10,14043361			Dec, Jan, Febr, Márc, Ápr	2811	1270	130	123	51		10
+Axamer Lizum	Ausztria	47,1943801		11,3030187			Nov, Dec, Jan, Febr, Márc, Ápr	2340	1580	7	21	2		3
+Flachau (Ski amedé)	Ausztria	47,3438501		13,3922888			Nov, Dec, Jan, Febr, Márc, Ápr	1980	740	30	81	4		0
+Ski Juwel Alpbachtal Wildschönau	Ausztria	47,395203		11,92651			Dec, Jan, Febr, Márc, Ápr	2025	830	25	53	13		7
+Ischgl	Ausztria	46,9862824		10,27451769			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2872	1377	47	142	49		11
+Bad Gastein	Ausztria	47,1144954		13,1352653			Nov, Dec, Jan, Febr, Márc, Ápr	2300	860	30	52	2		10
+Gargellen	Ausztria	46,9721035		9,9187223			Dec, Jan, Febr, Márc, Ápr	2300	1423	20	5	2		6
+Lech (Ski Arlberg)	Ausztria	47,18265425		10,14043361			Dec, Jan, Febr, Márc, Ápr	2811	1270	130	123	51		6
+Kitzbühel / Kirchberg (KitzSki)	Ausztria	47,4463585		12,3911473			Okt, Nov, Dec, Jan, Febr, Márc, Ápr	2000	800	101	61	17		8
+Galtür	Ausztria	46,9194554		10,17059035			Dec, Jan, Febr, Márc, Ápr	2300	1600	6	25	12		4
+Fieberbrunn - Saalbach Hinterglemm Leogang (Skicircus)	Ausztria	47,45518755		12,54442426			Nov, Dec, Jan, Febr, Márc, Ápr	2096	830	140	112	18		0
+Schladming (4-Berge-Skischauke)	Ausztria	47,3940415		13,6867878			Ápr	2015	745	46	68	8		4
+Ellmau (SkiWelt Wilder Kaiser-Brixental)	Ausztria	47,51927245		12,29224775			Dec, Jan, Febr, Márc, Ápr	1957	620	122	129	33		7
+Zauchensee	Ausztria	47,2933062		13,4568962			Ápr	2188	1000	23	16	4		6
+Westendorf (SkiWelt Wilder Kaiser-Brixental)	Ausztria	47,3831879		12,22174856			Dec, Jan, Febr, Márc, Ápr	1957	620	122	129	33		0
+Silvretta Montafon	Ausztria	47,03503335		9,976778589			Nov, Dec, Jan, Febr, Márc, Ápr	2430	700	60	45	8		12
+Zürs (Ski Arlberg)	Ausztria	47,194717		10,160198			Dec, Jan, Febr, Márc, Ápr	2811	1270	130	123	51		0
+Söll (SkiWelt Wilder Kaiser-Brixental)	Ausztria	47,503178		12,190132			Dec, Jan, Febr, Márc, Ápr	1957	620	122	129	33		0
+St, Johann in Tirol	Ausztria	47,5224141		12,4286809			Dec, Jan, Febr, Márc, Ápr	1604	659	16	23	3		8
+St, Christoph (Ski Arlberg)	Ausztria	47,022264		15,4708255			Dec, Jan, Febr, Márc, Ápr	2811	1270	130	123	51		0
+CourMájuseur / Chécrouit - Val Veny	Olaszország	45,7874248		6,9730618				2755	1205	16	21	4		0
+Sierra Nevada-Pradollano	Spanyolország	37,0957512		-3,387885004			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3282	2100	50	49	7		0
+Cortina d'Ampezzo	Olaszország	46,5383332		12,1373506			Nov, Dec, Jan, Febr, Márc, Ápr	2924	1224	45	55	20		11
+Val Senales Glacier	Olaszország	46,7699617		10,7974224			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3212	2011	8	7	11		8
+Saas-Fee	Svájc	46,107342		7,9247055			Júl, Aug, Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr	3573	1800	20	60	20		14
+Champoluc (Monterosa Ski)	Olaszország	45,8366951		7,731371649			Dec, Jan, Febr, Márc, Ápr	3275	1212	23	94	15		0
+Kronplatz (Plan de Corones)	Olaszország	46,7387791		11,9583111			Nov, Dec, Jan, Febr, Márc, Ápr	2275	973	52	42	25		7
+Formigal	Spanyolország	42,7741349		-0,3608611			Nov, Dec, Jan, Febr, Márc, Ápr	2251	1501	47	70	20		6
+Baqueira / Beret	Spanyolország	42,6988865		0,9347175			Dec, Jan, Febr, Márc, Ápr	2510	1471	79	52	19		5
+Sauze d’Oulx (Via Lattea)	Olaszország	45,0259571		6,8602827			Nov, Dec, Jan, Febr, Márc, Ápr	2749	1372	96	220	84		0
+Cervinia	Svájc	45,96300885		7,715412186			Egész évben	3899	1562	75	220	27		0
+Wasserngrat (Gstaad)	Svájc	46,4643909		7,3169684			Dec, Jan, Febr, Márc	1900	1275	3	3	2		0
+Wispile (Gstaad)	Svájc	46,4518335		7,296177853			Dec, Jan, Febr, Márc	1941	1046	3	3	1		0
+Crans-Montana	Svájc	46,3304899		7,526435804			Nov, Dec, Jan, Febr, Márc, Ápr	1510	540	55	70	15		12
+Brunni - Engelberg	Svájc	46,84087305		8,410638259			Dec, Jan, Febr, Márc, Ápr	2040	1050	2	3	2		0
+Arosa Lenzerheide	Svájc	46,7548885		9,566024408			Okt, Nov, Dec, Jan, Febr, Márc, Ápr	2865	1229	111	87	27		4
+Verbier (4 Vallées)	Svájc	46,1003545		7,276506393			Dec, Jan, Febr, Márc, Ápr	3330	821	107	202	103		8
+St, Moritz - Corviglia	Svájc	46,5079945		9,818959			Nov, Dec, Jan, Febr, Márc, Ápr	3057	1720	42	79	34		6
+Gresse en Vercors	Franciaország	44,9011374		5,5662216			Dec, Jan, Febr, Márc	1751	1245	8	7	5		0
+Nendaz (4 Vallées)	Svájc	46,1003545		7,276506393			Dec, Jan, Febr, Márc, Ápr	3330	821	107	202	103		8
+Villars - Gryon / Les Diablerets	Svájc	46,3289335		7,1096087			Dec, Jan, Febr, Márc, Ápr	2120	1224	51	45	4		0
+Thyon (4 Vallées)	Svájc	46,1003545		7,276506393			Dec, Jan, Febr, Márc, Ápr	3330	821	107	202	103		8
+Veysonnaz (4 Vallées)	Svájc	46,1003545		7,276506393			Dec, Jan, Febr, Márc, Ápr	3330	821	107	202	103		8
+Buchenberg-Buching-Halblech-	Németország	47,606423		10,8106751			Dec, Jan, Febr, Márc	1140	810	2	4	0		0
+Alpendorf (Ski amedé)	Ausztria	47,3225067		13,1954241			Nov, Dec, Jan, Febr, Márc, Ápr	1980	740	30	81	4		0
+Méribel (Les 3 Vallées)	Franciaország	45,39139		6,574283			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		0
+Les Menuires (Les 3 Vallées)	Franciaország	45,322108		6,537697			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3230	1110	312	216	72		0
+Les Sybelles-Le Corbier-La Toussuire-Les Bottières-St Colomban des Villards-St Sorlin-St Jean d’Arves	Franciaország	45,25492475		6,248865708			Dec, Jan, Febr, Márc, Ápr	2620	1100	53	239	18		7
+Le Grand Massif-Flaine-Les Carroz-Morillon-Samoëns-Sixt	Franciaország	46,0298218		6,695615648			Dec, Jan, Febr, Márc, Ápr	2476	694	135	95	35		14
+Megève-Saint-Gervais	Franciaország	45,845128		6,685666167			Dec, Jan, Febr, Márc, Ápr	2353	850	98	134	31		5
+Soldeu-Pas de la Casa/Grau Roig/El Tarter/Canillo/Encamp (Grandvalira)	Andorra	42,5768944		1,6682694			Nov, Dec, Jan, Febr, Márc, Ápr	2640	1710	100	77	33		0
+Laax-Flims-Falera	Svájc	46,849618		9,217180661			Okt, Nov, Dec, Jan, Febr, Márc, Ápr	3018	1100	88	81	19		14
+Vars-Risoul-La Forêt Blanche	Franciaország	47,5343201		5,5342065			Dec, Jan, Febr, Márc, Ápr	2750	1650	75	90	20		0
+Le Grand Domaine-Valmorel-Doucy-Celliers-St François Longchamp	Franciaország	48,618833		-2,2673293			Dec, Jan, Febr, Márc, Ápr	2550	1250	115	35	15		0
+Galibier Thabor-Valmeinier-Valloire	Franciaország	45,1604887		6,464502618			Dec, Jan, Febr, Márc, Ápr	2594	1430	75	60	15		0
+Zillertal Arena-Zell am Ziller-Gerlos-Königsleiten-Hochkrimml	Ausztria	47,24372605		12,03918599			Dec, Jan, Febr, Márc, Ápr	2500	580	43	89	11		10
+La Molina-Masella-Alp2500	Spanyolország	42,3427392		1,9562059			Nov, Dec, Jan, Febr, Márc, Ápr	2531	1616	76	47	18		0
+Auron-Saint-Etienne-de-Tinée	Franciaország	44,2262702		6,9309839			Dec, Jan, Febr, Márc, Ápr	1600	1150	60	45	30		8
+Alta Badia	Olaszország	46,56467025		11,91021932			Dec, Jan, Febr, Márc, Ápr	2550	1324	70	52	8		8
+La Clusaz-Manigod	Franciaország	45,883562		6,419691113			Dec, Jan, Febr, Márc, Ápr	2477	1040	62	40	23		0
+Espace Villard Corrençon-Villard-de-Lans-Corrençon-en-Vercors	Franciaország	45,044532		5,559564			Dec, Jan, Febr, Márc, Ápr	2050	1050	50	50	25		0
+Val Cenis-Lanslevillard-Lanslebourg-Termignon	Franciaország	45,2768658		6,8170409			Dec, Jan, Febr, Márc, Ápr	2800	1300	73	42	10		0
+Isola 2000	Franciaország	44,1869246		7,145441205			Dec, Jan, Febr, Márc, Ápr	2603	1800	75	35	10		8
+Obersaxen-Mundaun-Val Lumnezia	Svájc	46,7487613		9,1022712			Dec, Jan, Febr, Márc, Ápr	2310	1201	60	40	20		15
+Les 7 Laux-Prapoutel-Le Pleynet-Pipay	Franciaország	45,2602174		6,033591377			Dec, Jan, Febr, Márc, Ápr	2400	1350	46	36	38		0
+Corvatsch-Furtschellas	Svájc	46,4450516		9,819511761			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3303	1797	13	89	17		9
+Nassfeld-Hermagor	Ausztria	46,58465625		13,24612886			Dec, Jan, Febr, Márc, Ápr	2002	600	30	69	11		7
+Mondolè Ski-Artesina-Frabosa Soprana-Prato Nevoso	Olaszország	44,249446		7,775081				807	803	42	51	11		0
+Aletsch Arena-Riederalp-Bettmeralp-Fiesch Eggishorn	Svájc	46,3895305		8,0609271			Dec, Jan, Febr, Márc, Ápr	1845	759	42	50	12		4
+Bad Kleinkirchheim-St, Oswald	Ausztria	46,8442215		13,7662406			Dec, Jan, Febr, Márc, Ápr	2055	1087	18	77	8		7
+Bardonecchia	Olaszország	45,078339		6,703205			Dec, Jan, Febr, Márc, Ápr	2694	1312	54	38	8		0
+Saint-Lary-Soulan	Franciaország	42,816936		0,3219538			Dec, Jan, Febr, Márc, Ápr	1600	812	60	30	10		3
+Orcières Merlette 1850	Franciaország	44,6972064		6,3235516			Dec, Jan, Febr, Márc, Ápr	2725	1850	55	38	7		0
+Dévoluy-Superdévoluy-La Joue du Loup	Franciaország	44,68440895		5,898484198			Dec, Jan, Febr, Márc, Ápr	2450	1450	60	30	10		0
+Grand Tourmalet-Pic du Midi-La Mongie-Barèges	Franciaország	42,9087613		0,1674113			Nov, Dec, Jan, Febr, Márc, Ápr	2500	1250	58	35	7		6
+Parsenn (Davos Klosters)	Svájc	46,842102		9,835342208			Nov, Dec, Jan, Febr, Márc, Ápr	2844	810	20	60	16		12
+Oberau (Wildschönau)	Ausztria	47,4234974		12,0307428			Dec, Jan, Febr, Márc	1130	900	1	0	1		0
+Ĺre	Svédország	63,4010888		13,0822241			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	1274	380	45	38	8		6
+Alto Sangro-Roccaraso-Rivisondoli	Olaszország	41,848167		14,079594			Dec, Jan, Febr, Márc, Ápr	2141	1309	37	32	20		0
+Chamrousse	Franciaország	45,1171487		5,893161879			Dec, Jan, Febr, Márc, Ápr	2250	1400	45	35	10		0
+Valberg-Beuil les Launes	Franciaország	44,0956228		6,9301384			Dec, Jan, Febr, Márc, Ápr	2020	1412	45	35	10		0
+Adelboden-Lenk-Chuenisbärgli-Silleren-Hahnenmoos-Metsch	Svájc	46,4927213		7,5587618			Dec, Jan, Febr, Márc, Ápr	1260	1072	44	38	6		6
+Rinderberg-Saanerslochgrat-Horneggli-Zweisimmen-Saanenmöser-Schönried-St, Stephan	Svájc	46,9463748		8,0499977			Dec, Jan, Febr, Márc, Ápr	2011	948	62	21	4		0
+Graukogel-Bad Gastein	Ausztria	47,1110862		13,15623357			Dec, Jan, Febr, Márc	2007	1079	3	6	2		0
+Les Portes du Mont-Blanc-Combloux-Mégève le Jaillet-La Giettaz	Franciaország	44,868928		5,594792482			Dec, Jan, Febr, Márc, Ápr	1835	1113	28	50	7		0
+Le Grand Bornand	Franciaország	45,9418675		6,4271457			Dec, Jan, Febr, Márc, Ápr	2100	1000	49	27	8		0
+Kaltenbach-Hochzillertal-Hochfügen-Ski-optimal	Ausztria	47,27705405		11,8486795			Nov, Dec, Jan, Febr, Márc, Ápr	2378	600	28	41	13		11
+Grimentz-Zinal	Svájc	46,1776631		7,5744978			Dec, Jan, Febr, Márc, Ápr	2900	1570	26	28	26		0
+Civetta-Alleghe-Selva di Cadore-Palafavera-Zoldo	Olaszország	46,358117		12,05748586			Dec, Jan, Febr, Márc, Ápr	2100	1000	30	44	6		0
+Ax les Thermes	Franciaország	42,7193597		1,8379765			Dec, Jan, Febr, Márc, Ápr	1400	720	40	25	15		0
+Damüls Mellau	Ausztria	47,314039		9,894201083			Dec, Jan, Febr, Márc, Ápr	2050	690	37	39	1		7
+Zell am See	Ausztria	47,3239636		12,7963165			Dec, Jan, Febr, Márc, Ápr	2000	760	30	28	19		6
+Cerler	Spanyolország	42,5927404		0,5384221			Dec, Jan, Febr, Márc, Ápr	2621	1505	35	27	14		0
+Three Peaks Dolomites-Helm-Stiergarten-Rotwand-Kreuzbergpass	Olaszország	46,731048		12,327947			Nov, Dec, Jan, Febr, Márc, Ápr	2200	1130	17	39	18		4
+Puy St, Vincent	Franciaország	44,8279543		6,4926273			Dec, Jan, Febr, Márc, Ápr	2677	1407	28	34	13		0
+Folgaria-Fiorentini	Olaszország	45,9149727		11,173015			Dec, Jan, Febr, Márc, Ápr	1850	1200	36	32	5		3
+Titlis-Engelberg	Svájc	46,8228773		8,400657035			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3020	1000	34	26	12		12
+Trysil	Norvégia	61,3561472		12,36702596			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	1100	415	33	18	20		5
+Nauders am Reschenpass-Bergkastel	Ausztria	46,87101815		10,53500477			Dec, Jan, Febr, Márc, Ápr	2850	1400	24	34	13		9
+Grossarltal-Dorfgastein	Ausztria	47,23837965		13,17939658			Dec, Jan, Febr, Márc, Ápr	2033	850	25	43	1		8
+Katschberg	Ausztria	47,0593103		13,615553			Nov, Dec, Jan, Febr, Márc, Ápr	2220	1066	10	50	10		6
+Valfréjus	Franciaország	45,162254		6,657267525			Dec, Jan, Febr, Márc, Ápr	2737	1550	40	20	10		0
+Savognin	Svájc	46,596957		9,5981493			Dec, Jan, Febr, Márc, Ápr	2713	1200	32	38	0		11
+Scuol-Motta Naluns	Svájc	46,811169		10,2726212			Dec, Jan, Febr, Márc, Ápr	2785	1250	27	32	11		10
+Passo San Pellegrino-Falcade	Olaszország	46,36726075		11,80236956			Nov, Dec, Jan, Febr, Márc, Ápr	2513	1190	20	38	8		0
+Piau Engaly	Franciaország	42,78020745		0,158613507			Nov, Dec, Jan, Febr, Márc, Ápr	2560	1420	35	22	8		0
+Flumserberg	Svájc	47,0828502		9,276589934			Nov, Dec, Jan, Febr, Márc, Ápr	665	425	10	38	17		6
+Super Sauze	Franciaország	44,3578176		6,6855952			Dec, Jan, Febr, Márc, Ápr	2450	1400	35	20	10		0
+La Norma	Franciaország	45,1772565		6,7195145			Dec, Jan, Febr, Márc, Ápr	2750	1350	17	43	5		0
+Pal-Arinsal-La Massana-Vallnord-	Andorra	42,55464075		1,448789398			Dec, Jan, Febr, Márc, Ápr	1550	1230	31	24	8		7
+Arabba	Olaszország	46,4971763		11,8740902			Dec, Jan, Febr, Márc, Ápr	2478	1602	32	22	8		4
+Wildkogel-Neukirchen-Bramberg	Ausztria	47,2743375		12,29774135			Dec, Jan, Febr, Márc, Ápr	2150	820	28	25	9		14
+Hintertux Glacier	Ausztria	47,061277		11,665036			Egész évben	3250	1500	14	35	11		7
+Disentis 3000	Svájc	46,7041748		8,8549785			Dec, Jan, Febr, Márc, Ápr	2833	1227	20	30	10		10
+Belalp-Blatten	Svájc	46,3648823		7,9796899			Dec, Jan, Febr, Márc, Ápr	3118	1322	20	20	20		0
+San Martino di Castrozza	Olaszország	46,2623377		11,802828			Nov, Dec, Jan, Febr, Márc, Ápr	2357	1404	16	32	12		3
+Meiringen-Hasliberg	Svájc	46,7468975		8,219472173			Dec, Jan, Febr, Márc, Ápr	1055	600	20	34	6		8
+Toggenburg-Wildhaus-Unterwasser-Alt St, Johann	Svájc	47,180949		9,32019222			Dec, Jan, Febr, Márc, Ápr	2262	900	10	45	5		7
+Alpe di Siusi-Seiser Alm-	Olaszország	46,5639036		11,60457618			Dec, Jan, Febr, Márc, Ápr	1669	1000	14	45	1		2
+Le Lioran	Franciaország	45,0912003		2,7503788			Dec, Jan, Febr, Márc, Ápr	1850	1160	30	20	10		0
+Saint Luc-Chandolin-Anniviers-	Svájc	46,236536		7,627631245			Dec, Jan, Febr, Márc, Ápr	3025	1655	20	30	10		0
+Les Karellis	Franciaország	45,2285712		6,4064649			Dec, Jan, Febr, Márc, Ápr	2520	1600	26	25	9		0
+Peyragudes	Franciaország	42,7807436		0,45611311			Dec, Jan, Febr, Márc, Ápr	2400	1600	30	26	4		0
+Leysin	Svájc	46,3438701		7,0148403			Dec, Jan, Febr, Márc, Ápr	2205	1250	43	15	2		0
+Ponte di Legno-Passo Tonale-Presena Glacier-Temù-Pontedilegno-Tonale	Olaszország	46,258603		10,508662			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3016	1121	10	40	9		11
+Eggli-La Videmanette-Gstaad-Saanen-Rougemont	Svájc	47,291778		9,1733641			Dec, Jan, Febr, Márc	2151	992	35	17	5		0
+Anzère	Svájc	46,2970711		7,3989488			Dec, Jan, Febr, Márc, Ápr	2420	1500	12	37	9		0
+Borovets	Bulgária	42,2668301		23,6074324			Dec, Jan, Febr, Márc, Ápr	2560	1300	24	29	5		12
+Font-Romeu-Bolquère Pyrénées 2000	Franciaország	42,5043981		2,0715162			Dec, Jan, Febr, Márc, Ápr	2213	1650	30	19	9		0
+Oppdal	Norvégia	62,53517845		9,62330412				1300	585	40	7	9		0
+Brévent-Flégère-Chamonix	Franciaország	45,9479384		6,868594877			Dec, Jan, Febr, Márc, Ápr	2525	1030	11	25	20		6
+Les Houches-Saint-Gervais-Prarion-Bellevue-Chamonix-	Franciaország	45,891508		6,799138			Dec, Jan, Febr, Márc, Ápr	1000	584	25	25	5		4
+Ylläs	Finnország	67,5647092		24,2246252			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	718	200	21	28	6		3
+Belvedere-Col Rodella-Ciampac-Buffaure-Canazei-Campitello-Alba-Pozza di Fassa	Olaszország	45,6850704		11,7729604			Dec, Jan, Febr, Márc, Ápr	2428	1320	7	40	7		6
+Lauchernalp-Lötschental	Svájc	46,41274665		7,774925326			Ápr	3111	1419	20	17	18		10
+Grossglockner Heiligenblut	Ausztria	47,0745464		12,6938826			Dec, Jan, Febr, Márc, Ápr	2989	1301	20	34	1		7
+Brandnertal-Brand-Bürserberg	Ausztria	47,119176		9,7578764			Dec, Jan, Febr, Márc, Ápr	2000	904	22	30	3		5
+Alpe du Grand-Serre-La Morte	Franciaország	45,0274177		5,8581966			Dec, Jan, Febr, Márc	2184	1367	36	17	2		0
+Les Angles	Franciaország	43,0835762		0,0062129			Nov, Dec, Jan, Febr, Márc, Ápr	2376	1600	22	23	10		0
+Kopaonik	Szerbia	43,2689885		20,826741			Dec, Jan, Febr, Márc, Ápr	2017	1057	30	19	6		0
+Aussois	Franciaország	45,2275415		6,7413988			Dec, Jan, Febr, Márc, Ápr	2750	1500	30	22	3		0
+First-Grindelwald	Svájc	46,6504815		8,065073279			Dec, Jan, Febr, Márc	2501	1050	30	15	8		6
+Sörenberg-Rothorn-Dorf	Svájc	46,8221657		8,0349311			Dec, Jan, Febr, Márc, Ápr	2350	1110	30	15	8		0
+Riserva Bianca-Limone Piemonte	Olaszország	44,1853305		7,581660887			Dec, Jan, Febr, Márc, Ápr	2060	1046	11	35	5		0
+Gitschberg Jochtal	Olaszország	46,82666885		11,6645207			Dec, Jan, Febr, Márc, Ápr	1354	772	17	25	9		6
+Schilthorn-Mürren-Lauterbrunnen	Svájc	46,55744425		7,892432481			Dec, Jan, Febr, Márc, Ápr	2970	796	19	23	9		15
+Dachstein West	Ausztria	47,5149184		13,4498696			Dec, Jan, Febr, Márc, Ápr	1620	780	15	33	3		4
+Pila	Olaszország	45,7699441		8,0810802			Nov, Dec, Jan, Febr, Márc, Ápr	1540	570	8	35	6		0
+Brigels-Waltensburg-Andiast	Svájc	46,7700497		9,067384			Dec, Jan, Febr, Márc	2418	1110	13	33	3		7
+Aprica	Olaszország	46,152697		10,151656			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2270	1162	28	14	7		0
+Bormio-Cima Bianca	Olaszország	46,4397574		10,3924531			Nov, Dec, Jan, Febr, Márc, Ápr	3012	1225	14	34	2		8
+Sedrun-Oberalp	Svájc	46,6652022		8,704905479			Nov, Dec, Jan, Febr, Márc, Ápr	2300	1500	10	35	5		3
+Grosseck-Speiereck-Mauterndorf-St, Michael	Ausztria	47,1217604		13,64406919			Dec, Jan, Febr, Márc, Ápr	2400	1095	26	17	7		8
+Hirmentaz-Les Habières-Bellevaux-Habière-Poche	Franciaország	46,2511455		6,517806672			Dec, Jan, Febr, Márc	1610	923	30	17	3		0
+Pragelato	Olaszország	45,0162171		6,9424531			Dec, Jan, Febr, Márc, Ápr	2700	1335	14	32	4		0
+Porté Puymorens	Franciaország	42,5488878		1,833462			Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr	2471	1600	21	20	9		0
+Mythenregion	Svájc	47,0217081		8,723539208			Dec, Jan, Febr, Márc	1070	573	18	31	1		0
+Candanchú	Spanyolország	42,78888865		-0,52873445			Dec, Jan, Febr, Márc, Ápr	2236	1514	15	18	15		0
+Zugspitze	Németország	47,421215		10,986297			Máj	2000	700	7	13	0		2
+Lindvallen-Högfjället-Sälen	Svédország	61,159705		13,193609			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	887	579	22	17	3		5
+Jasná Nízke Tatry-Chopok	Szlovákia	48,966941		19,58101661			Dec, Jan, Febr, Márc, Ápr, Máj	2004	943	19	17	7		6
+Tandådalen-Hundfjållet-Sälen	Svédország	61,1792462		12,9919443			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	872	572	18	15	12		3
+Steinplatte-Winklmoosalm-Waidring-Reit im Winkl	Ausztria	48,7329198		15,5705666			Nov, Dec, Jan, Febr, Márc, Ápr	1860	740	18	22	2		12
+Rigi	Svájc	47,0567184		8,4853157				1315	439	4	4	0		0
+Métabief	Franciaország	46,7734907		6,3505765				1420	1000	19	18	2		0
+Vitosha-Sofia	Bulgária	42,6167377		23,27422928			Dec, Jan, Febr, Márc, Ápr	2290	726	12	6	2		5
+Latemar-Obereggen-Pampeago-Predazzo	Olaszország	46,3563067		11,53719305			Nov, Dec, Jan, Febr, Márc, Ápr	1540	1050	9	32	7		3
+Szczyrk-Skrzyczne	Lengyelország	49,7071204		19,0117088			Dec, Jan, Febr, Márc, Ápr	1257	524	22	7	4		0
+Mariborsko Pohorje-Maribor	Szlovénia	46,5153389		15,5782311			Dec, Jan, Febr, Márc	1327	325	23	13	5		0
+Praz de Lys-Sommand-Taninges-Mieussy-	Franciaország	46,15746735		6,569485327			Dec, Jan, Febr, Márc, Ápr	1966	1240	22	16	6		0
+Jahorina	Bosznia-Hercegovina	43,7233441		18,59622766				1889	920	3	19	3		0
+Espace Dôle-La Dôle-Les Tuffes	Franciaország	47,0944134		5,492668685			Dec, Jan, Febr, Márc	1678	1137	17	8	2		0
+Kreischberg	Ausztria	47,0634486		14,03933			Dec, Jan, Febr, Márc, Ápr	2118	868	17	16	9		7
+Garmisch-Classic-Garmisch-Partenkirchen	Németország	47,4596073		11,07616628			Dec, Jan, Febr, Márc, Ápr	2050	732	12	18	10		8
+Carezza Ski	Olaszország	46,42089735		11,58845807			Dec, Jan, Febr, Márc, Ápr	2337	1200	21	14	3		7
+Pizol-Bad Ragaz-Wangs	Svájc	46,979739		9,436717			Dec, Jan, Febr, Márc, Ápr	510	490	14	21	8		9
+SuperBesse-Puy de Sancy	Franciaország	45,506646		2,8594			Dec, Jan, Febr, Márc, Ápr	1850	1300	30	9	4		0
+Stöten	Svédország	61,2660478		12,8904555				830	443	26	3	3		0
+Fellhorn-Kanzelwand-Oberstdorf-Riezlern	Ausztria	47,6099906		12,5088699			Dec, Jan, Febr, Márc, Ápr	1967	920	13	19	2		4
+Idre Fjäll	Svédország	61,8896064		12,8330743			Okt, Nov, Dec, Jan, Febr, Márc, Ápr	890	588	17	22	2		3
+Großglockner Resort Kals-Matrei	Ausztria	47,009935		12,6232			Dec, Jan, Febr, Márc, Ápr	2422	933	8	22	6		7
+Pamporovo	Bulgária	41,64619295		24,67356329			Dec, Jan, Febr, Márc, Ápr	1926	1620	17	6	5		0
+Abetone-Val di Luce	Olaszország	44,1314375		10,6306384			Dec, Jan, Febr, Márc, Ápr	1892	1240	14	28	1		0
+Gerlitzen	Ausztria	46,69476		13,9143318			Dec, Jan, Febr, Márc, Ápr	1000	520	10	27	3		7
+Paganella-Andalo	Olaszország	46,1572963		11,00551108			Nov, Dec, Jan, Febr, Márc, Ápr	2125	1030	9	22	1		6
+Melchsee-Frutt-Kerns-	Svájc	46,77452445		8,271634234			Dec, Jan, Febr, Márc, Ápr	2255	1080	20	6	10		0
+Vall de Núria	Spanyolország	42,3944498		2,1549868				1964	912	4	2	1		0
+Arêches-Beaufort	Franciaország	45,66298915		6,566319098			Dec, Jan, Febr, Márc, Ápr	2300	1050	15	20	15		0
+Špíndlerův Mlýn	Csehország	50,7256448		15,6067567			Dec, Jan, Febr, Márc, Ápr	1235	702	8	13	2		0
+Les Mosses-La Lécherette	Svájc	46,3960939		7,1018391			Dec, Jan, Febr, Márc, Ápr	1870	1445	10	30	0		0
+Cimone-Montecreto-Sestola-Le Polle	Olaszország	45,97985		11,0630167			Nov, Dec, Jan, Febr, Márc, Ápr	1976	900	15	25	10		0
+Luchon Superbagnères	Franciaország	42,768303		0,5780217			Dec, Jan, Febr, Márc, Ápr	1440	635	16	10	6		0
+Lélex-Crozet	Franciaország	46,3026091		5,9407475			Dec, Jan, Febr, Márc	900	640	16	7	4		0
+Sinaia	Románia	45,3456607		25,5479283				880	834	3	11	4		0
+Gourette-Eaux Bonnes-	Franciaország	42,9438107		-0,3291295			Dec, Jan, Febr, Márc, Ápr	2450	1350	18	13	4		0
+Rauriser Hochalmbahnen-Rauris	Ausztria	47,223392		12,990109			Dec, Jan, Febr, Márc, Ápr	2175	940	15	12	5		10
+Hoch-Ybrig-Unteriberg-Oberiberg	Svájc	47,01175015		8,787310015			Dec, Jan, Febr, Márc, Ápr	1850	1035	15	30	5		5
+Meran 2000	Olaszország	46,6655583		11,3071256			Dec, Jan, Febr, Márc	1609	648	12	25	3		5
+Nätschen-Andermatt	Svájc	46,65201925		8,622667027			Dec, Jan, Febr, Márc	2344	1444	8	5	8		0
+Albiez-Montrond	Franciaország	45,2174088		6,340903			Dec, Jan, Febr, Márc, Ápr	2200	1500	25	7	3		0
+Tarvisio-Monte Lussari	Olaszország	46,4817326		13,5208066			Dec, Jan, Febr, Márc, Ápr	1752	754	9	11	5		0
+Mount Parnassos-Fterolakka-Kellaria	Görögország	38,547732		22,589641				2300	1600	18	15	3		0
+Mölltal Glacier-Mölltaler Gletscher	Ausztria	46,980483		13,050646			Egész évben	2108	1222	5	7	4		3
+Wendelstein-Brannenburg-Osterhofen	Németország	49,3559425		11,1441047			Dec, Jan, Febr, Márc	1723	791	0	7	4		0
+Glenshee	Egyesült Királyság	56,7410308		-3,3999352			Dec, Jan, Febr, Márc, Ápr	900	650	24	10	2		0
+Sulden am Ortler-Solda all'Ortles-	Olaszország	46,5090706		10,59678748			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	3250	1900	17	13	14		11
+Poiana Brașov	Románia	45,5967098		25,5561895			Dec, Jan, Febr, Márc, Ápr	1799	1021	5	2	5		0
+Hinterstoder-Höss	Ausztria	47,66612225		14,17403784			Dec, Jan, Febr, Márc, Ápr	2000	600	12	18	10		7
+St, Jean Montclar	Franciaország	44,411775		6,3510526			Dec, Jan, Febr, Márc, Ápr	2500	1350	25	20	5		0
+Port del Comte	Spanyolország	42,1694417		1,5696298				2310	1745	20	15	5		0
+Tänndalen	Svédország	62,5423638		12,3360263				1038	743	20	15	3		0
+Feldberg-Seebuck-Grafenmatt-Fahl	Németország	47,86345025		8,070282232			Dec, Jan, Febr, Márc, Ápr	1448	888	7	14	5		3
+Pitztal Glacier-Pitztaler Gletscher-	Ausztria	46,926915		10,87096			Szept, Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2685	1740	3	16	0		4
+Tauplitz-Bad Mitterndorf	Ausztria	47,57728095		13,98478445			Dec, Jan, Febr, Márc, Ápr	896	812	18	18	6		6
+Hochoetz-Oetz	Ausztria	47,22172465		11,02137443			Dec, Jan, Febr, Márc, Ápr	1410	820	12	21	3		5
+Rosshütte-Seefeld	Ausztria	47,330727		11,1998705			Dec, Jan, Febr, Márc, Ápr	2064	1230	10	9	1		4
+Malbun	Liechtenstein	47,102619		9,6083069			Dec, Jan, Febr, Márc, Ápr	2000	1600	11	9	3		4
+Špičák	Csehország	50,2975226		17,0116784			Dec, Jan, Febr, Márc, Ápr	1202	854	3	3	0		1
+Riesneralm-Donnersbachwald	Ausztria	47,37659935		14,10532135			Dec, Jan, Febr, Márc, Ápr	1820	950	15	12	3		7
+Berwang-Bichlbach-Rinnen	Ausztria	47,4131478		10,74173242			Dec, Jan, Febr, Márc, Ápr	1743	1067	24	10	1		3
+Glungezer-Tulfes	Ausztria	47,2075977		11,5283837			Dec, Jan, Febr, Márc, Ápr	2304	950	7	15	0		15
+Fanningberg	Ausztria	47,1489018		13,6932252			Dec, Jan, Febr, Márc, Ápr	2115	1497	11	5	7		4
+Turracher Höhe	Ausztria	46,91448535		13,87352444			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	2205	1400	14	24	3		3
+Indoor ski area Snow Arena-Druskininkai	Litvánia	54,03173		23,960042			Egész évben	163	97	1	0	0		0
+Niedere-Andelsbuch-Bezau	Ausztria	47,4002902		9,9376361			Dec, Jan, Febr, Márc	1715	655	5	4	1		0
+Wurzeralm-Spital am Pyhrn	Ausztria	47,6279977		14,3162785			Dec, Jan, Febr, Márc, Ápr	1870	810	10	10	2		4
+Pråbichl-Vordernberg	Ausztria	47,5208498		14,9512205			Dec, Jan, Febr, Márc, Ápr	1608	1100	6	11	3		0
+Pfelders-Moos in Passeier-	Olaszország	46,7952778		11,0895074			Dec, Jan, Febr, Márc, Ápr	2502	1601	5	9	4		0
+Mitterdorf-Almberg-– Mitterfirmiansreut	Németország	48,888874		13,643595			Dec, Jan, Febr, Márc	1139	841	2	2	1		2
+Lavarone	Olaszország	45,94128935		11,28863808			Dec, Jan, Febr, Márc, Ápr	1650	1150	19	5	2		0
+Geißkopf-Bischofsmais	Németország	48,9240769		13,0374226			Dec, Jan, Febr, Márc	1116	835	1	5	0		2
+Donovaly-Park Snow	Szlovákia	48,8878953		19,2468587				1361	914	5	5	0		2
+Kobla-Bohinj	Szlovénia	46,2338617		13,9650643			Dec, Jan, Febr, Márc	1480	540	12	10	1		0
+Sudelfeld-Bayrischzell	Németország	47,6717401		12,04163164				1563	850	5	24	3		4
+Grüntenlifte-Kranzegg-Rettenberg	Németország	47,5824873		10,3212662			Dec, Jan, Febr, Márc, Ápr	1700	900	2	14	0		0
+Grebenzen-St, Lambrecht	Ausztria	47,0536954		14,33034179			Dec, Jan, Febr, Márc	1870	1010	2	9	0		6
+Kirchdorf	Ausztria	47,57562605		12,38734435			Dec, Jan, Febr, Márc	780	640	3	2	0		1
+Nebelhorn-Oberstdorf	Németország	47,4218727		10,3423461			Dec, Jan, Febr, Márc, Ápr, Máj	2224	828	2	5	4		7
+Lachtal	Ausztria	47,2524874		14,3682392			Dec, Jan, Febr, Márc, Ápr	2222	1600	7	16	2		3
+Ramsau am Dachstein-Rittisberg	Ausztria	47,4185564		13,5929847			Dec, Jan, Febr, Márc	1636	1035	14	10	1		3
+Bürchen-Törbel-Moosalp	Svájc	46,251276		7,829707			Dec, Jan, Febr, Márc	2550	1480	5	15	5		8
+Guzet	Franciaország	42,7762455		1,3131615			Dec, Jan, Febr, Márc	2100	1100	20	14	6		0
+Schetteregg-Egg	Ausztria	47,4167682		9,9826655			Nov, Dec, Jan, Febr, Márc	1325	1070	3	6	1		1
+Fichtelberg-Oberwiesenthal	Németország	50,4291364		12,9547281			Dec, Jan, Febr, Márc, Ápr	1215	911	6	6	2		2
+Bellwald	Svájc	46,4237017		8,1599477			Dec, Jan, Febr, Márc, Ápr	1600	1204	9	21	6		6
+Klewenalp-Stockhütte-Beckenried-Emmetten	Svájc	46,9391136		8,4741614			Dec, Jan, Febr, Márc, Ápr	1200	436	15	25	0		0
+Schöneck-Skiwelt	Németország	50,2056		8,83333			Dec, Jan, Febr, Márc	760	620	1	1	0		1
+Białka Tatrzańska-Kotelnica-Kaniońwka-Bania	Lengyelország	49,3946417		20,1050528			Dec, Jan, Febr, Márc, Ápr	910	680	12	3	0		1
+Štrbské Pleso	Szlovákia	49,1191897		20,063955			Dec, Jan, Febr, Márc, Ápr	1840	1376	2	5	0		3
+Gaissau-Hintersee	Ausztria	47,7147891		13,23800875			Márc	1567	750	23	10	0		0
+Kellerjoch-Schwaz	Ausztria	47,3302137		11,71804485			Ápr	857	545	5	2	2		4
+Aillons-Margériaz	Franciaország	45,60283055		6,098268696				1785	1370	18	4	1		0
+Hochrindl-Sirnitz	Ausztria	46,8226776		14,0524733			Dec, Jan, Febr, Márc	1886	1540	5	11	3		2
+La Bresse-Hohneck	Franciaország	48,03400165		6,983339743			Dec	1350	872	13	7	1		0
+Silbersattel-Steinach	Németország	50,4399275		11,1511781			Dec, Jan, Febr, Márc, Ápr	842	590	2	1	0		0
+Lammeralm-Langenwang	Ausztria	47,60520455		15,58475687			Dec, Jan, Febr, Márc	1230	980	2	3	2		0
+Kitzbüheler Horn	Ausztria	47,476123		12,4297939			Dec, Jan, Febr, Márc, Ápr	2000	800	6	9	2		7
+Myrkdalen	Norvégia	60,8420056		6,4666278			Nov, Dec, Jan, Febr, Márc, Ápr, Máj	1060	450	13	12	4		3
+Loser-Altaussee	Ausztria	47,6607391		13,7710285			Dec, Jan, Febr, Márc, Ápr	1770	850	18	12	3		9
+Christlum-Achenkirch	Ausztria	47,50747545		11,67908871			Dec, Jan, Febr, Márc, Ápr	1800	950	6	16	5		4
+Grasgehren-Bolgengrat	Németország	47,4425742		10,1761213			Nov, Dec, Jan, Febr, Márc, Ápr	1700	1400	3	8	0		2
+Götschen-Bischofswiesen	Németország	47,6495716		12,9380903			Dec, Jan, Febr, Márc, Ápr	1307	880	2	1	4		2
+Torrent-Leukerbad	Svájc	46,3728566		7,6541765			Dec, Jan, Febr, Márc, Ápr	2610	1411	3	26	16		11
+Monte Popolo-Eben im Pongau	Ausztria	47,4041442		13,41875165			Dec, Jan, Febr, Márc, Ápr	1612	862	4	2	0		3
+Jochgrimm-Passo Oclini-	Olaszország	46,3473164		11,4515353			Dec, Jan, Febr, Márc, Ápr	2250	1850	4	2	1		0
+Alpe Lusia-Moena-Bellamonte	Olaszország	46,3390273		11,70654171			Dec, Jan, Febr, Márc, Ápr	2340	1370	12	10	4		0
+Unternberg-Ruhpolding-	Németország	47,7293144		12,6401193			Dec, Jan, Febr, Márc	1417	710	1	1	0		1
+Diavolezza-Lagalb	Svájc	46,429214		9,977345144			Egész évben	3006	2091	0	21	10		10
+Kubínska hol’a	Szlovákia	49,2852625		19,26742095			Dec, Jan, Febr, Márc, Ápr	1396	720	2	10	2		0
+Gälä	Norvégia	61,5058146		9,7847118			Nov, Dec, Jan, Febr, Márc, Ápr	1148	800	13	5	1		3
+Kvitfjell	Norvégia	58,6834043		9,0280158			Okt, Nov, Dec, Jan, Febr, Márc, Ápr, Máj	1039	185	19	10	5		4
+Molines-en-Queyras-Saint-Véran	Franciaország	44,7122166		6,870256556			Dec, Jan, Febr, Márc, Ápr	2800	1750	20	12	1		0
+Tatranská Lomnica	Szlovákia	49,1655267		20,2791933			Dec, Jan, Febr, Márc, Ápr	2190	888	5	5	1		6
+Kanin-Sella Nevea-Bovec	Szlovénia	46,3649708		13,48181712			Dec, Jan, Febr, Márc, Ápr	1103	460	4	6	0		0
+Postwiesen Skidorf-Neuastenberg	Németország	51,188476		8,518201			Dec, Jan, Febr, Márc	730	605	3	3	1		1
+Kaiseregg-Riggisalp-Schwarzsee	Svájc	46,6524972		7,3190559			Dec, Jan, Febr, Márc	1750	1050	14	5	1		0
+St, Pierre de Chartreuse-Le Planolet	Franciaország	45,3422689		5,8146864			Dec, Jan, Febr, Márc, Ápr	1800	900	18	12	5		0
+Oberjoch-Bad Hindelang-– Iseler	Németország	47,5087114		10,4087222			Dec, Jan, Febr, Márc, Ápr	1559	1130	6	24	2		2
+Mönichkirchen-Mariensee	Ausztria	47,5235306		15,99868228			Márc	1450	870	5	6	2		0
+Grächen	Svájc	46,1960178		7,8421612			Dec, Jan, Febr, Márc, Ápr	2864	1619	9	31	2		7
+Puigmal	Franciaország	42,3950066		2,1088833				2700	1830	9	15	7		0
+Kranzberg-Mittenwald	Németország	47,4513588		11,2286303			Dec	1350	980	6	7	2		2
+Wetterstein lifts-Wettersteinbahnen-– Ehrwald	Ausztria	47,406897		10,927998			Dec, Jan, Febr, Márc	1530	1000	15	5	3		3
+Stuhleck-Spital am Semmering	Ausztria	47,5741948		15,7899645			Ápr	1774	777	18	6	0		0

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace konyvek
@@ -22,5 +23,31 @@ namespace konyvek
         }
 
         public List<Konyv> Konyvek { get => new List<Konyv>(konyvek); }
+
+        public int SzerzoDarab(string szerzo)
+        {
+            int db = 0;
+            foreach (Konyv konyv in this.konyvek)
+            {
+                if (konyv.SzerzoE(szerzo))
+                {
+                    db++;
+                }
+            }
+            return db;
+        }
+
+        public int maxPeldany()
+        {
+            int maxe = this.konyvek[0].Peldany;
+            foreach (Konyv konyv in this.konyvek)
+            {
+                if (konyv.Peldany > maxe)
+                {
+                    maxe = konyv.Peldany;
+                }
+            }
+            return maxe;
+        }
     }
 }

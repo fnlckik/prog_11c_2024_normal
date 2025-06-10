@@ -1,0 +1,5 @@
+Kezdő
+-> Programozási tételek összeépítése
+-> 29. Leghosszabb egyszínű gyöngyökből álló szakasz
+
+Beadod? Igen / Nem

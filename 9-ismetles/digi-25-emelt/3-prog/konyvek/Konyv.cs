@@ -49,5 +49,10 @@ namespace konyvek
         {
             return this.leiras.Contains(nev);
         }
+
+        public bool NepszeruKulfoldiE(int k)
+        {
+            return this.peldany >= k && !this.magyarE;
+        }
     }
 }

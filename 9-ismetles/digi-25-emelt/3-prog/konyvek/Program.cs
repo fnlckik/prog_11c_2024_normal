@@ -15,14 +15,20 @@ namespace konyvek
             //Console.WriteLine(kiadas.Konyvek[0].SzerzoE("Szobonya Erzsébet")); // true
             Console.WriteLine("2. feladat:");
             Console.Write("Szerző: ");
-            string szerzo = Console.ReadLine();
+            string szerzo = "Benedek Elek"; //Console.ReadLine();
             int szerzoDb = kiadas.SzerzoDarab(szerzo);
             Console.WriteLine($"{szerzoDb} könyvkiadás");
 
             // F3
             Console.WriteLine("3. feladat:");
-            int maxPeldany = kiadas.maxPeldany();
-            Console.WriteLine($"Legnagyobb példányszám: {maxPeldany}, előfordult ??? alkalommal");
+            Tuple<int, int> max = kiadas.MaxPeldanyDarab();
+            //int maxDb = kiadas.Hanyszor(maxPeldany);
+            Console.WriteLine($"Legnagyobb példányszám: {max.Item1}, előfordult {max.Item2} alkalommal");
+
+            // F4
+            Console.WriteLine("4. feladat:");
+            Konyv nepszeru = kiadas.NepszeruKulfoldi(40000);
+            Console.WriteLine(nepszeru); // ToString() kéne
         }
     }
 }

@@ -37,7 +37,8 @@ namespace konyvek
             return db;
         }
 
-        public int maxPeldany()
+        #region Max-Count külön-külön
+        public int MaxPeldany()
         {
             int maxe = this.konyvek[0].Peldany;
             foreach (Konyv konyv in this.konyvek)
@@ -48,6 +49,50 @@ namespace konyvek
                 }
             }
             return maxe;
+        }
+
+        public int Hanyszor(int ertek)
+        {
+            int db = 0;
+            foreach (Konyv konyv in this.konyvek)
+            {
+                if (konyv.Peldany == ertek)
+                {
+                    db++;
+                }
+            }
+            return db;
+        }
+        #endregion
+
+        public Tuple<int, int> MaxPeldanyDarab()
+        {
+            int maxe = this.konyvek[0].Peldany;
+            int db = 0;
+            foreach (Konyv konyv in this.konyvek)
+            {
+                if (konyv.Peldany > maxe)
+                {
+                    maxe = konyv.Peldany;
+                    db = 1;
+                }
+                else if (konyv.Peldany == maxe)
+                {
+                    db++;
+                }
+            }
+            return new Tuple<int, int>(maxe, db);
+        }
+
+        // k: küszöbérték (a legalább ekkorák közül keresünk könyvet)
+        public Konyv NepszeruKulfoldi(int k)
+        {
+            int i = 0;
+            while (!konyvek[i].NepszeruKulfoldiE(k)) // i < konyvek.Count && 
+            {
+                i++;
+            }
+            return konyvek[i];
         }
     }
 }

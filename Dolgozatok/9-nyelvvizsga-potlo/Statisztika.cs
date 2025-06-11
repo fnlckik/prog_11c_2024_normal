@@ -42,8 +42,24 @@ namespace Nyelvvizsga
             return legjobb;
         }
 
+        // Nyelv szerint növekvőbe
+        private void Rendez()
+        {
+            for (int i = 0; i < vizsgak.Count; i++)
+            {
+                for (int j = 0; j < vizsgak.Count - i - 1; j++)
+                {
+                    if (vizsgak[j].Nyelv.CompareTo(vizsgak[j+1].Nyelv) > 0)
+                    {
+                        (vizsgak[j], vizsgak[j + 1]) = (vizsgak[j + 1], vizsgak[j]);
+                    }
+                }
+            }
+        }
+
         public void Kiir(string fajl)
         {
+            Rendez();
             StreamWriter sw = new StreamWriter(fajl);
             foreach (Vizsga vizsga in vizsgak)
             {

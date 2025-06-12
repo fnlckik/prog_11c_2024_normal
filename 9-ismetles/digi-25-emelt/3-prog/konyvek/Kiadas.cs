@@ -94,5 +94,47 @@ namespace konyvek
             }
             return konyvek[i];
         }
+
+        public void KiirStatisztika()
+        {
+            Console.WriteLine("Év\tMagyar kiadás\tMagyar példányszám\tKülföldi kiadás\tKülföldi példányszám");
+            int mk = 0, kk = 0;
+            if (konyvek[0].MagyarE)
+            {
+                mk++;
+            }
+            else
+            {
+                kk++;
+            }
+            for (int i = 1; i < konyvek.Count; i++)
+            {
+                if (konyvek[i].Ev == konyvek[i-1].Ev)
+                {
+                    if (konyvek[i].MagyarE)
+                    {
+                        mk++;
+                    }
+                    else
+                    {
+                        kk++;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{konyvek[i-1].Ev}\t{mk}\t{kk}");
+                    mk = 0; kk = 0;
+                    if (konyvek[0].MagyarE)
+                    {
+                        mk++;
+                    }
+                    else
+                    {
+                        kk++;
+                    }
+                }
+            }
+            // Utolsó évet itt kéne kiíratni!
+        }
     }
 }

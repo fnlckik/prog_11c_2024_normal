@@ -29,6 +29,10 @@ namespace konyvek
             Console.WriteLine("4. feladat:");
             Konyv nepszeru = kiadas.NepszeruKulfoldi(40000);
             Console.WriteLine(nepszeru); // ToString() kéne
+
+            // F5
+            Console.WriteLine("5. feladat:");
+            kiadas.KiirStatisztika();
         }
     }
 }

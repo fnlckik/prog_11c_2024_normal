@@ -20,6 +20,8 @@ namespace konyvek
         }
 
         public int Peldany { get => peldany; }
+        public int Ev { get => ev; }
+        public bool MagyarE { get => magyarE; }
 
         // Igaz-e, hogy az i. karaktertől indulva ott szerepel a név?
         private bool jo(int i, string nev)
